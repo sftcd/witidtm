@@ -1,0 +1,713 @@
+<h1 id="readingthenewswithoutgivinguponyourprivacy">Reading the news without giving up on your privacy</h1>
+
+<p><a href="mailto:stephen@tolerantneworks.com">Stephen Farrell</a>
+20170521 (Updated: 20170601)</p>
+
+<p>First - the good news: done right you can <a href="https://jell.ie/news/">read the news</a> 
+more quickly and easily
+and be much more privacy friendly than the default, and it's not that hard to
+setup. It'll probably take me longer to write this than it took to setup, so
+may as well start...</p>
+
+<p>I like to check various news sources a few times a day.  (Probably too many
+times, when I'm not busy:-) This article is about how I arranged to read that
+news in a more privacy friendly fashion, using the basic <a href="https://my-own.net/">My-Own.Net</a> customer
+facilities.</p>
+
+<p>In the basic test documented below, reading 8 news/tech web sites 
+in a default mode chromium browser involved contacting 188 different hosts, for
+a total of 1350 http requests, involving 887 attempts to set cookies in the
+browser. 
+Doing the same in another browser with conservative privacy
+settings (FF/NoScript/Cookies-off) still involved contacting
+33 different hosts in 312 requests.</p>
+
+<p>I would assume that the 150 or so aditional hosts are purely involved
+in advertising and see no reason why they ought know when and what 
+news I decide to read.</p>
+
+<p>In contrast, with the news setup from <a href="https://my-own.net/">My-Own.Net</a> 
+on <a href="https://jell.ie/news/">Jell.ie</a>, only one host 
+needs to be contacted 41 times to render equivalent, or probably more,
+content. (With no annoying ads, but yes it'd be better we figured a
+way to not ask 41 times - once should be enough.)</p>
+
+<p>To me, if you care about your privacy, doing something about this
+seems like a no-brainer.</p>
+
+<p>Timing-wise,
+<a href="https://jell.ie/news/">Jell.ie News</a>, 
+when locally accessed,
+is way quicker than the slowest individual page display 
+for one of the 8 sites with the default browser. Reading
+only the last 24-hours worth of stories, rendering
+<a href="https://jell.ie/news/">Jell.ie News</a> takes about 4
+seonds, compared to 18 seconds for the worst single
+web page when run with a browser in open-kimono (i.e.
+default) mode.</p>
+
+<p>So we get privacy and performance, yay!</p>
+
+<h2 id="usingaserverandsimplepie">Using a server and Simplepie</h2>
+
+<p>The starting point is to have a web server you control. I'll assume
+you do, and that you know how to configure that.</p>
+
+<p>The basic idea is to use the RSS/Atom feeds that the web sites we
+want offer, and to merge those into one web page that we update
+periodically. For that we're using <a href="https://simplepie.org/">Simplepie</a>
+which is a fairly simple PHP framework for handling RSS/Atom feeds.</p>
+
+<p>Note that we could use FF to consume the RSS feeds directly, but
+while that would reduce the hosts we contact to just those whose
+content we want, the basic browser rendering of RSS isn't really
+usable, at least IMO.</p>
+
+<p>So I took a quick look and found a Simplepie PHP script 
+that merges different
+feeds into one web page by time, which seemed like just what I wanted.
+That also uses the SimplePie caching system so that we don't need
+to contact the source sites each time we read the news, further
+enhancing privacy.</p>
+
+<p>There was one tricky bit with this - handling images. By default
+Simplepie serves HTML to the browser that includes images with
+the src attribute pointing to the original site. That makes sense,
+but reduces privacy as we end up contacting these sites from
+our browser. Clearly we're not the only ones who noticed that
+as Simplepie also has a built-in image handler, which replaces
+the image src attributes with ones that point to the cache on
+our own server. To use that though we needed a second PHP scipt
+(ih.php)
+to be the target for those image src attributes. That one was
+pretty trivial but not that obvious, at first.</p>
+
+<p>Lastly, I created two cron files - one to do a fetch (via curl) of our
+new page each hour to prime the cache and another to
+delete cache entries that are too old, so we don't end up using
+too much disk.</p>
+
+<h2 id="my-own.nethttps:my-own.netsetup"><a href="https://my-own.net/">My-Own.Net</a> Setup</h2>
+
+<p>If you're a <a href="https://my-own.net/">My-Own.Net</a> customer, you can do all the above by simply
+editing your list of feed URLs, in ~/p84-work/feed-urls.txt and then running
+~/code/project84/provnode/p84-build-news.sh all as user p84 on your VPS or
+gateway.  </p>
+
+<p>As a <a href="https://my-own.net/">My-Own.Net</a> customer, there are trade-offs on whether to run this on your
+VPS or Gatway.  Use the former if you want to read news from anywhere, but at
+the cost that the existence, timing and size metadata related to the HTTPS
+traffic from your browser to your VPS being visible to whomever is recording traffic
+between those hosts or on those networks.</p>
+
+<p>Use the latter (Gateway) if you only want to read news at home and prefer that the
+browser to news-server connection not be visible to the Internet. The cost here
+though is that the cron job loading the various feeds comes from you home IP
+address which is probably much more identifying than your VPS.  (In practice
+that is - in principle an attacker who cared could know that your VPS is yours,
+but that's far less likely than some ad bureau knowing that your home IP
+address is yours.)</p>
+
+<p>Or, you could install on both I guess. For me, putting this on the VPS is fine
+and probably better suits what I want, but you'll make up your own mind on
+that.</p>
+
+<p>To un-install use: "./p84-build-news.sh clean"</p>
+
+<p>The current sources for those are:</p>
+
+<ul>
+<li><a href="https://basil.dsg.cs.tcd.ie/code/tcd/project84/file/7a7d8d8667df/provnode/p84-build-news.sh">p84-build-news.sh</a></li>
+<li><a href="https://basil.dsg.cs.tcd.ie/code/tcd/project84/file/7a7d8d8667df/provnode/news.php">news.php</a></li>
+<li><a href="https://basil.dsg.cs.tcd.ie/code/tcd/project84/file/7a7d8d8667df/provnode/ih.php">ih.php</a></li>
+</ul>
+
+<p>(Note: the above links will likely change to a github repo at some point.)</p>
+
+<h2 id="furtherwork">Further Work</h2>
+
+<p>As to what else might be done, we've considered the following, but haven't
+done anything much about any of them so far:-)</p>
+
+<ul>
+<li><p>make it multi-user via some kind of gossiping 
+between <a href="https://my-own.net/">My-Own.Net</a> customers, or between them and
+some bit of infrastructure we provide (seems a bit too much effort for
+the payoff and gossiped content creates potentially new fake-news 
+potential)</p></li>
+<li><p>add chaff maybe - some feeds we access randomly but don't render, (easily
+enough done, but hard to see how much privacy benefit accrues)</p></li>
+<li><p>prime the cache on VPS but send that via VPN to Gateway (again, not sure
+benefit is worthwhile)</p></li>
+<li><p>there is some flakiness in the caching (or I don't fully understand it
+yet;-), we see some accesses to original feeds even when things ought be
+cached - not sure why (set cache back to 1hr from 3 to see if that's
+different)</p></li>
+<li><p>maybe make a no-images version that only needs 1 request/response, or
+figure some other way to reduce the 41 requests to one</p></li>
+</ul>
+
+<h2 id="measurements">Measurements</h2>
+
+<p>Tests were started on a Sunday morning around 20170521T0845Z. No attempt
+was made to control either the local network or the upstream networks. 
+At 0847Z Speedtest.net reported a 17ms ping time, 63.65Mbps download (from a
+contracted but notional 100) and 10.26 Mbps upload.  IPv6-test.com scores the
+testing laptop 20/20, and it's speed test reports 14Mbps/IPv4 and 28.8Mbps/IPv6
+in tests to a server in the UK. None of the speeds reported there are
+particularly stable, so should only be taken as rough indicators of the state
+of the network. IPv6 is native though, not tunneled.</p>
+
+<p>The news/tech sites tested were:</p>
+
+<ul>
+<li>Outlet, Web site, RSS feed</li>
+<li>Irish Times, <a href="https://irishtimes.com">https://irishtimes.com/</a>, <a href="https://www.irishtimes.com/cmlink/news-1.1319192">https://www.irishtimes.com/cmlink/news-1.1319192</a></li>
+<li>Intercept, <a href="https://theintercept.com/">https://theintercept.com/</a>, <a href="https://theintercept.com/feed/?lang=en">https://theintercept.com/feed/?lang=en</a></li>
+<li>Washington Post, <a href="https://www.washingtonpost.com/">https://www.washingtonpost.com/</a>, <a href="http://feeds.washingtonpost.com/rss/rss_blogpost">http://feeds.washingtonpost.com/rss/rss_blogpost</a></li>
+<li>Engadget, <a href="https://www.engadget.com/">https://www.engadget.com/</a>, <a href="https://www.engadget.com/rss.xml">https://www.engadget.com/rss.xml</a></li>
+<li>Guardian, <a href="https://www.theguardian.com/">https://www.theguardian.com/</a>, <a href="https://www.theguardian.com/world/rss">https://www.theguardian.com/world/rss</a></li>
+<li>BBC, <a href="http://www.bbc.com">http://www.bbc.com/</a>, <a href="https://feeds.bbci.co.uk/news/rss.xml?edition=int">https://feeds.bbci.co.uk/news/rss.xml?edition=int</a></li>
+<li>Slashdot, <a href="https://slashdot.org/">https://slashdot.org/</a>, <a href="http://rss.slashdot.org/Slashdot/slashdotMain">http://rss.slashdot.org/Slashdot/slashdotMain</a></li>
+<li>El Reg, <a href="https://www.theregister.co.uk/">https://www.theregister.co.uk/</a>, <a href="https://www.theregister.co.uk/headlines.atom">https://www.theregister.co.uk/headlines.atom</a></li>
+</ul>
+
+<p>Note that in some cases, the feeds and web site front pages are not serving the
+same content. In cases where there are re-directs (e.g. BBC re-directs from https://bbc.co.uk
+to the above http URI), the "final" URL in the chain is used. Probably doesn't
+make much difference though.</p>
+
+<p>For each of the sites above, we load the page in Chromium (58) and FF (53).
+Both running on Ubuntu 17.04, 64 bit. Chromium runs in incognito mode so
+forgets everyting on exit and each URL is loaded after a fresh start, this
+means that there are no cases where a user has clicked "ok" to accept cookies,
+unlike in "normal" operation. </p>
+
+<p>For Chromium, we stop recording once the browser icon has stopped "spinning"
+(many web sites will load new content periodically making it hard to determine
+when the page is "done.") </p>
+
+<p>FF runs NoScript and doesn't accept cookies, with none of these sites as
+exceptions.  In FF, Cached Web Content was cleared before each measurement.</p>
+
+<p>Timing, number of requests and size information is as reported on the
+development pane's "network" tab.  (That's accessed via shift-ctrl-i.) Lastly
+we save an HTTP archive (<a href="https://en.wikipedia.org/wiki/.har">.har</a>) file in
+each case and from that determine the number of hosts accessed using:</p>
+
+<p><code>
+            $ grep \"url\" [har-file] | awk -F'/' '{print $3}' | sort | uniq -c | wc
+</code></p>
+
+<p>Note that the above counts data URLs as hosts, those figures
+are separated below, as we don't check from whom the data URLs were received.
+The .har files have been  preserved but not published as they contain addresses 
+and who knows what other sensitive information in the overall total of 250k or 
+so lines;-)</p>
+
+<p>To check how many set-cookies are attempted from har files we use:</p>
+
+<p><code>
+            $ grep \"cookies\" [har-file]  | grep -v "\[\]" | wc
+</code></p>
+
+<p>The repo has a bash script (cds.sh) that does the above and a wee bit more.</p>
+
+<h3 id="chromium">Chromium</h3>
+
+<h4 id="https:www.irishtimes.com">https://www.irishtimes.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T0955Z</li>
+<li>num-requests: 253 </li>
+<li>MB-transferred: 3.3</li>
+<li>seconds-to-finished: 14.43</li>
+<li>hosts-accessed: 44 </li>
+<li>data-urls: 7</li>
+<li>set-cookie-attempts: 147</li>
+</ul>
+
+<h4 id="https:theintercept.com">https://theintercept.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1205Z</li>
+<li>num-requests: 26</li>
+<li>MB-transferred: 4.4</li>
+<li>seconds-to-finished: 4.91</li>
+<li>hosts-accessed: 4</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 22</li>
+</ul>
+
+<h4 id="https:www.washingtonpost.com">https://www.washingtonpost.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1234Z</li>
+<li>num-requests: 343</li>
+<li>MB-transferred: 2.8</li>
+<li>seconds-to-finished: 12.41</li>
+<li>hosts-accessed: 43</li>
+<li>data-urls: 4</li>
+<li>set-cookie-attempts: 369</li>
+</ul>
+
+<h4 id="https:www.engadget.com">https://www.engadget.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1254Z</li>
+<li>num-requests: 341</li>
+<li>MB-transferred: 4.8</li>
+<li>seconds-to-finished: 16.42</li>
+<li>hosts-accessed: 19</li>
+<li>data-urls: 1</li>
+<li>set-cookie-attempts: 2</li>
+</ul>
+
+<h4 id="https:www.theguardian.com">https://www.theguardian.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1303Z</li>
+<li>num-requests: 177</li>
+<li>MB-transferred: 2.4</li>
+<li>seconds-to-finished: 5.69</li>
+<li>hosts-accessed: 31</li>
+<li>data-urls: 5</li>
+<li>set-cookie-attempts: 35</li>
+</ul>
+
+<h4 id="http:www.bbc.com">http://www.bbc.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1322Z</li>
+<li>num-requests: 193</li>
+<li>MB-transferred: 1.2</li>
+<li>seconds-to-finished: 6.16</li>
+<li>hosts-accessed: 26</li>
+<li>data-urls: 1</li>
+<li>set-cookie-attempts: 19</li>
+</ul>
+
+<h4 id="https:slashdot.org">https://slashdot.org/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1331Z</li>
+<li>num-requests: 235</li>
+<li>MB-transferred: 1.1</li>
+<li>seconds-to-finished: 10.70</li>
+<li>hosts-accessed: 56</li>
+<li>data-urls: 17</li>
+<li>set-cookie-attempts: 209</li>
+</ul>
+
+<h4 id="https:www.theregister.co.uk">https://www.theregister.co.uk/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1340Z</li>
+<li>num-requests: 100</li>
+<li>MB-transferred: 0.8</li>
+<li>seconds-to-finished: 5.09</li>
+<li>hosts-accessed: 22</li>
+<li>data-urls: 3</li>
+<li>set-cookie-attempts: 84</li>
+</ul>
+
+<h3 id="firefoxnoscriptcookies-off">Firefox/NoScript/Cookies-off</h3>
+
+<h4 id="https:www.irishtimes.com">https://www.irishtimes.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1146Z</li>
+<li>num-requests: 97 </li>
+<li>MB-transferred: 1.8</li>
+<li>seconds-to-finished: 7.28</li>
+<li>hosts-accessed: 4 </li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h4 id="https:theintercept.com">https://theintercept.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1219Z</li>
+<li>num-requests: 11</li>
+<li>MB-transferred: 3.2</li>
+<li>seconds-to-finished: 3.44</li>
+<li>hosts-accessed: 3</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h4 id="https:www.washingtonpost.com">https://www.washingtonpost.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1236Z</li>
+<li>num-requests: 23</li>
+<li>MB-transferred: 2.3</li>
+<li>seconds-to-finished: 4.12</li>
+<li>hosts-accessed: 3</li>
+<li>data-urls: 3</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h4 id="https:www.engadget.com">https://www.engadget.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1257Z</li>
+<li>num-requests: 29</li>
+<li>MB-transferred: 3.7</li>
+<li>seconds-to-finished: 11.11</li>
+<li>hosts-accessed: 4</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h4 id="https:www.theguardian.com">https://www.theguardian.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1311Z</li>
+<li>num-requests: 59</li>
+<li>MB-transferred: 2.5</li>
+<li>seconds-to-finished: 5.85</li>
+<li>hosts-accessed: 6</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h4 id="http:www.bbc.com">http://www.bbc.com/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1326Z</li>
+<li>num-requests: 28</li>
+<li>MB-transferred: 0.5</li>
+<li>seconds-to-finished: 3.95</li>
+<li>hosts-accessed: 8</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h4 id="https:slashdot.org">https://slashdot.org/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1334Z</li>
+<li>num-requests: 20</li>
+<li>MB-transferred: 0.5</li>
+<li>seconds-to-finished: 3.62</li>
+<li>hosts-accessed: 3</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h4 id="https:www.theregister.co.uk">https://www.theregister.co.uk/</h4>
+
+<ul>
+<li>test-runtime: 20170321T1342Z</li>
+<li>num-requests: 42</li>
+<li>MB-transferred: 0.5</li>
+<li>seconds-to-finished: 2.3</li>
+<li>hosts-accessed: 3</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h3 id="allinchromium">All in Chromium</h3>
+
+<ul>
+<li>hosts: 188</li>
+<li>data-urls: 38</li>
+<li>set-cookie-attempts: 887</li>
+<li>host-accesses: 1350</li>
+</ul>
+
+<p><code>
+   Reqs Host
+      1 aax.amazon-adsystem.com,
+      1 acdn.adnxs.com,
+      1 ado.pro-market.net,
+      1 ads.pro-market.net,
+      1 adx.g.doubleclick.net,
+      1 ag.innovid.com,
+      1 amplifypixel.outbrain.com,
+      1 ams-login.dotomi.com,
+      1 apiservices.krxd.net,
+      1 api.viafoura.com,
+      1 ap.lijit.com,
+      1 app-cdn.spot.im,
+      1 b.engadget.com,
+      1 bidder.criteo.com,
+      1 blip.bizrate.com,
+      1 c.amazon-adsystem.com,
+      1 cc.swiftype.com,
+      1 cdn.syndication.twimg.com,
+      1 cms.analytics.yahoo.com,
+      1 consent-st.truste.com,
+      1 consent.truste.com,
+      1 d1z2jf7jlzjs58.cloudfront.net,
+      1 d3ezl4ajpp2zy8.cloudfront.net,
+      1 d.turn.com,
+      1 edigitalsurvey.com,
+      1 fig.bbc.co.uk,
+      1 google.com,
+      1 go.theregister.co.uk,
+      1 irishtimes.com,
+      1 i.viafoura.co,
+      1 js-agent.newrelic.com,
+      1 js-sec.indexww.com,
+      1 kr.ixiaa.com,
+      1 l9bjkkhaycw6f8f4.soundcloud.com,
+      1 lf.bizx.info,
+      1 mab.chartbeat.com,
+      1 m.addthis.com,
+      1 m.addthisedge.com,
+      1 me-cdn.effectivemeasure.net,
+      1 me-ssl.effectivemeasure.net,
+      1 mongo-good-server.ext.nile.works,
+      1 nir.regmedia.co.uk,
+      1 pixel.sitescout.com,
+      1 plugin.mediavoice.com,
+      1 polyfill.guim.co.uk,
+      1 prod01-cdn06.cdn.firstlook.org,
+      1 pwapi.washingtonpost.com,
+      1 pxl.connexity.net,
+      1 recirculation.spot.im,
+      1 rpxnow.com,
+      1 rumds.wpdigital.net,
+      1 s.dpmsrv.com,
+      1 secure-au.imrworldwide.com,
+      1 sp.adbrn.com,
+      1 sp.fastclick.net,
+      1 s.sa.aol.com,
+      1 s.skimresources.com,
+      1 s.swiftypecdn.com,
+      1 stags.bluekai.com,
+      1 static.criteo.net,
+      1 stats.irishtimes.com,
+      1 style.sndcdn.com,
+      1 sync.go.sonobi.com,
+      1 sync.mathtag.com,
+      1 sync.tidaltv.com,
+      1 syndication.twitter.com,
+      1 tag.1rx.io,
+      1 tag.researchnow.com,
+      1 tag-st.contextweb.com,
+      1 theintercept.com,
+      1 usermatch.krxd.net,
+      1 washingtonpost-d.openx.net,
+      1 widget.perfectmarket.com,
+      1 wis.sndcdn.com,
+      1 www.engadget.com,
+      1 www.googletagmanager.com,
+      1 www.youtube.com,
+      2 2677521.fls.doubleclick.net,
+      2 aa.agkn.com,
+      2 analytics.slashdotmedia.com,
+      2 api.viafoura.co,
+      2 bam.nr-data.net,
+      2 b.scorecardresearch.com,
+      2 cdn-api.arcpublishing.com,
+      2 code.createjs.com,
+      2 d21rhj7n383afu.cloudfront.net,
+      2 d3tglifpd8whs6.cloudfront.net,
+      2 d.agkn.com,
+      2 dev.visualwebsiteoptimizer.com,
+      2 emp.bbc.com,
+      2 h.parrable.com,
+      2 imasdk.googleapis.com,
+      2 io.narrative.io,
+      2 mybbc.files.bbci.co.uk,
+      2 pbid.pro-market.net,
+      2 pix04.revsci.net,
+      2 p.nexac.com,
+      2 scontent.xx.fbcdn.net,
+      2 secure-dcr.imrworldwide.com,
+      2 smetrics.washingtonpost.com,
+      2 ssc.api.bbc.com,
+      2 www.bbc.com,
+      2 www.googleadservices.com,
+      2 www.spot.im,
+      3 a.dpmsrv.com,
+      3 api-widget.soundcloud.com,
+      3 cdn.taboola.com,
+      3 connect.facebook.net,
+      3 dpm.demdex.net,
+      3 emp.bbci.co.uk,
+      3 images.washingtonpost.com,
+      3 ml314.com,
+      3 nav.files.bbci.co.uk,
+      3 ping.chartbeat.net,
+      3 platform.twitter.com,
+      3 ps.eyeota.net,
+      3 sa.bbc.co.uk,
+      3 search.files.bbci.co.uk,
+      3 secure-gl.imrworldwide.com,
+      3 tags.bluekai.com,
+      3 uploads.guim.co.uk,
+      3 www.bbc.co.uk,
+      3 www.theguardian.com,
+      4 beacon.gu-web.net,
+      4 cdn.viafoura.net,
+      4 loxodo-ct.ext.nile.works,
+      4 pixel.mathtag.com,
+      4 s7.addthis.com,
+      4 s.effectivemeasure.net,
+      4 static.chartbeat.com,
+      4 static.theguardian.com,
+      5 cm.g.doubleclick.net,
+      5 d1o5u7ifbz3swt.cloudfront.net,
+      5 execjobs.irishtimes.com,
+      5 fonts.googleapis.com,
+      5 ib.adnxs.com,
+      5 slashdot.org,
+      5 static.bbc.co.uk,
+      5 stats.g.doubleclick.net,
+      5 www.google.ie,
+      6 as-sec.casalemedia.com,
+      6 bid.contextweb.com,
+      6 cdn-gl.imrworldwide.com,
+      6 fastlane.rubiconproject.com,
+      6 fonts.gstatic.com,
+      6 idsync.rlcdn.com,
+      6 interactive.guim.co.uk,
+      6 match.adsrvr.org,
+      6 ophan.theguardian.com,
+      6 www.googletagservices.com,
+      7 googleads.g.doubleclick.net,
+      7 s.blogsmithmedia.com,
+      7 w.soundcloud.com,
+      8 cdn-social.janrain.com,
+      8 ssl.google-analytics.com,
+      8 www.gstatic.com,
+      9 i1.sndcdn.com,
+      9 s.aolcdn.com,
+      9 tag.crsspxl.com,
+     10 api.nextgen.guardianapps.co.uk,
+     10 prod01-cdn07.cdn.firstlook.org,
+     10 www.facebook.com,
+     10 www.google.com,
+     11 js.washingtonpost.com,
+     11 pagead2.googlesyndication.com,
+     11 prod01-cdn05.cdn.firstlook.org,
+     11 sb.scorecardresearch.com,
+     12 cdn.krxd.net,
+     12 secure.adnxs.com,
+     13 assets.guim.co.uk,
+     13 s0.2mdn.net,
+     14 beacon.krxd.net,
+     14 ichef.bbci.co.uk,
+     15 login.slashdot.org,
+     17 www.google-analytics.com,
+     18 securepubads.g.doubleclick.net,
+     19 www.theregister.co.uk,
+     20 a.fsdn.com,
+     24 img.washingtonpost.com,
+     26 static.bbci.co.uk,
+     27 tpc.googlesyndication.com,
+     33 regmedia.co.uk,
+     38 ,
+     39 www.washingtonpost.com,
+     41 i.guim.co.uk,
+    100 o.aolcdn.com,
+    112 www.irishtimes.com,
+    120 adserver-us.adtech.advertising.com,
+    142 adserver.adtechus.com
+</code></p>
+
+<h3 id="allinffnoscriptcookies-off">All in FF/NoScript/Cookies-off</h3>
+
+<ul>
+<li>hosts: 33</li>
+<li>data-urls: 3</li>
+<li>set-cookie-attempts: 0</li>
+<li>host-accesses: 312</li>
+</ul>
+
+<p><code>
+   Reqs Host
+      1 analytics.slashdotmedia.com,
+      1 irishtimes.com,
+      1 mybbc.files.bbci.co.uk,
+      1 theintercept.com,
+      1 www.bbc.com,
+      1 www.engadget.com,
+      2 assets.guim.co.uk,
+      2 beacon.gu-web.net,
+      2 nav.files.bbci.co.uk,
+      2 prod01-cdn07.cdn.firstlook.org,
+      2 sa.bbc.co.uk,
+      2 slashdot.org,
+      2 ssc.api.bbc.com,
+      3 ,
+      3 images.washingtonpost.com,
+      3 static.bbc.co.uk,
+      3 www.theguardian.com,
+      4 fonts.googleapis.com,
+      4 interactive.guim.co.uk,
+      4 s.blogsmithmedia.com,
+      4 static.theguardian.com,
+      5 execjobs.irishtimes.com,
+      5 s.aolcdn.com,
+      7 static.bbci.co.uk,
+      8 prod01-cdn05.cdn.firstlook.org,
+     10 ichef.bbci.co.uk,
+     10 img.washingtonpost.com,
+     10 www.washingtonpost.com,
+     17 a.fsdn.com,
+     17 www.theregister.co.uk,
+     19 o.aolcdn.com,
+     24 regmedia.co.uk,
+     44 i.guim.co.uk,
+     88 www.irishtimes.com
+</code></p>
+
+<h3 id="jell.ienews:https:jell.iespiemerged.php">Jell.ie News: https://jell.ie/spie/merged.php</h3>
+
+<h4 id="chromium">Chromium</h4>
+
+<ul>
+<li>test-runtime: 20170321T1352Z</li>
+<li>num-requests: 62</li>
+<li>MB-transferred: 30.7</li>
+<li>seconds-to-finished: 17.11</li>
+<li>hosts-accessed: 1</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h4 id="ffnoscriptcookies-off">FF/NoScript/Cookies-off</h4>
+
+<ul>
+<li>test-runtime: 20170321T1355Z</li>
+<li>num-requests: 61</li>
+<li>MB-transferred: 31.8</li>
+<li>seconds-to-finished: 16.21</li>
+<li>hosts-accessed: 1</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h3 id="jell.ienews:https:jell.ienews">Jell.ie News: https://jell.ie/news/</h3>
+
+<p>This is a re-run after a bit more optimisation</p>
+
+<h4 id="chromium">Chromium</h4>
+
+<ul>
+<li>test-runtime: 20170601T0712Z</li>
+<li>num-requests: 41</li>
+<li>MB-transferred: 9.1MB</li>
+<li>seconds-to-finished: 4.36</li>
+<li>hosts-accessed: 1</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
+
+<h4 id="ffnoscriptcookies-off">FF/NoScript/Cookies-off</h4>
+
+<ul>
+<li>test-runtime: 20170601T0713Z</li>
+<li>num-requests: 41</li>
+<li>MB-transferred: 9.4MB</li>
+<li>seconds-to-finished: 4.51</li>
+<li>hosts-accessed: 1</li>
+<li>data-urls: 0</li>
+<li>set-cookie-attempts: 0</li>
+</ul>
