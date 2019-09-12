@@ -11,6 +11,13 @@ We'll be using the TCD
 tool for assignments etc. Apologies that only registered students can see that
 material.
 
+Lectures and labs:
+    - Tuesday 1000-1050 Synge theatre (the one in the Hamilton!)
+    - Thursday 1600-1750 M17 Museum Building
+
+*Note the Thursday slot now will be in M17 for the full
+semester - that's a change*
+
 Lecture content will accumulate [here](./lectures) as we go.
 Be aware that the content will change, even sometimes at the last minute!
 
