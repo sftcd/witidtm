@@ -29,5 +29,6 @@ Be aware that the content will change, even sometimes at the last minute!
 - [The web (basics)](lectures/200-web.pdf)
 - [The jell.ie news](lectures/300-jellie.pdf)
 - [Passwords](lectures/400-passwords.pdf)
+- [Human Rights background](lectures/500-hr.pdf)
 
 
