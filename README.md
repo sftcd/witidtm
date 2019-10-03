@@ -30,5 +30,6 @@ Be aware that the content will change, even sometimes at the last minute!
 - [The jell.ie news](lectures/300-jellie.pdf)
 - [Passwords](lectures/400-passwords.pdf)
 - [Human Rights/Internet Governance background](lectures/500-hr.pdf)
+    - [Niels ten Oever presentation](lectures/500-niels.pdf)
 
 
