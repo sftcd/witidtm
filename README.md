@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20191010 stephen.farrell@cs.tcd.ie
+20191015 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -32,6 +32,7 @@ Be aware that the content will change, even sometimes at the last minute!
 - [Human Rights/Internet Governance background](lectures/500-hr.pdf)
     - [Niels ten Oever presentation](lectures/500-niels.pdf)
 - [Advertising networks](lectures/600-ads.pdf)
+- [Privacy and search](lectures/700-doug.pdf)
 
 
 
