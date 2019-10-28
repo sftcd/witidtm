@@ -34,6 +34,7 @@ Be aware that the content will change, even sometimes at the last minute!
 - [Advertising networks](lectures/600-ads.pdf)
 - [Privacy and search](lectures/700-doug.pdf)
 - [Data ethics](lectures/800-ethics.pdf)
+- [Some legalities - background](lectures/900-law.pdf)
 
 
 
