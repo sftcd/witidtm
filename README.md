@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20191021 stephen.farrell@cs.tcd.ie
+20191111 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -24,17 +24,30 @@ semester - that's a change*
 Lecture content will accumulate [here](./lectures) as we go.
 Be aware that the content will change, even sometimes at the last minute!
 
+Stephen's sessions:
+
 - [Introduction](lectures/100-intro.pdf)
 - [Machines and OSes](lectures/150-machines.pdf)
 - [The web (basics)](lectures/200-web.pdf)
 - [The jell.ie news](lectures/300-jellie.pdf)
 - [Passwords](lectures/400-passwords.pdf)
-- [Human Rights/Internet Governance background](lectures/500-hr.pdf)
-    - [Niels ten Oever presentation](lectures/500-niels.pdf)
 - [Advertising networks](lectures/600-ads.pdf)
 - [Privacy and search](lectures/700-doug.pdf)
-- [Data ethics](lectures/800-ethics.pdf)
+
+Dave's sessions:
+
+- [Data ethics 1](lectures/800-ethics.pdf)
+- [Data ethics 2](lectures/1000-ethics.pdf)
+- [Data ethics 3](lectures/1001-ethics.pdf)
+
+Sessions with guests:
+
+- [Human Rights/Internet Governance background](lectures/500-hr.pdf)
+    - [Niels ten Oever presentation](lectures/500-niels.pdf)
 - [Some legalities - background](lectures/900-law.pdf)
+    - Simon's slides are coming...
+- [Email intro](lectures/1100-mail.pdf)
+
 
 
 
