@@ -47,6 +47,7 @@ Sessions with guests:
 - [Some legalities - background](lectures/900-law.pdf)
     - Simon's slides are coming...
 - [Email intro](lectures/1100-mail.pdf)
+    - [Janet and Sean's slides on email at Microsoft](lectures/1101-mail.pdf)
 
 
 
