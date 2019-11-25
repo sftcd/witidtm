@@ -32,6 +32,9 @@ Stephen's sessions:
 - [The jell.ie news](lectures/300-jellie.pdf)
 - [Passwords](lectures/400-passwords.pdf)
 - [Advertising networks](lectures/600-ads.pdf)
+
+Doug's session:
+
 - [Privacy and search](lectures/700-doug.pdf)
 
 Dave's sessions:
