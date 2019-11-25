@@ -32,6 +32,7 @@ Stephen's sessions:
 - [The jell.ie news](lectures/300-jellie.pdf)
 - [Passwords](lectures/400-passwords.pdf)
 - [Advertising networks](lectures/600-ads.pdf)
+- [Recent security and privacy developments](lectures/1400-pm.pdf)
 
 Doug's session:
 
@@ -53,6 +54,8 @@ Sessions with guests:
     - Simon's slides are coming...
 - [Email intro](lectures/1100-mail.pdf)
     - [Janet and Sean's slides on email at Microsoft](lectures/1101-mail.pdf)
+- [More on DNS](lectures/1300-dns.pdf)
+    - Terry's slides coming...
 
 
 
