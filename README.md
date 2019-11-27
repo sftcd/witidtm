@@ -55,7 +55,7 @@ Sessions with guests:
 - [Email intro](lectures/1100-mail.pdf)
     - [Janet and Sean's slides on email at Microsoft](lectures/1101-mail.pdf)
 - [More on DNS](lectures/1300-dns.pdf)
-    - Terry's slides coming...
+    - [Terry's DNS slides](lectures/1500-dns.pdf)
 
 
 
