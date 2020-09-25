@@ -22,12 +22,12 @@ semester depending on how it conflicts with people's schedules.
 
 ## Materials
 
-Lecture content will accumulate [here](./thisyear) as we go.
+Lecture content will accumulate [here](./lectures/2020-20221/) as we go.
 Be aware that the content will change, even sometimes at the last minute!
 
 Stephen's sessions:
 
-- [Introduction](thisyear/100-intro.pdf)
+- [Introduction](lectures/2020-2021/100-intro.pdf)
 
 Dave's sessions:
 
