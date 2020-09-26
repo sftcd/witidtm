@@ -32,6 +32,7 @@ Stephen's sessions:
 
 - [Introduction](lectures/2020-2021/100-intro.pdf)
 - [The Web](lectures/2020-2021/200-web.pdf)
+- [Reading News](lectures/2020-2021/300-jellie.pdf)
 
 Dave's sessions:
 
