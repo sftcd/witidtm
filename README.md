@@ -1,13 +1,13 @@
 # What is the Internet doing to me? (witidtm)
 
-20200925 stephen.farrell@cs.tcd.ie
+20200926 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
 [https://down.dsg.cs.tcd.ie/witidtm/](https://down.dsg.cs.tcd.ie/witidtm/).
 
 We'll be using the TCD
-[Blackboard](https://tcd.blackboard.com/webapps/blackboard/execute/courseMain?course_id=_56807_1)
+[Blackboard](https://tcd.blackboard.com/webapps/blackboard/execute/content/blankPage?cmd=view&content_id=_1600800_1&course_id=_69120_1)
 tool for assignments etc. Apologies that only registered students can see that
 material.
 
@@ -22,8 +22,11 @@ semester depending on how it conflicts with people's schedules.
 
 ## Materials
 
-Lecture content will accumulate [here](./lectures/2020-20221/) as we go.
+Lecture content will accumulate [here](./lectures/2020-2021/) as we go.
 Be aware that the content will change, even sometimes at the last minute!
+
+You can look at the materials from [2019 here](./lectures/2019-2020/). 
+Some of that is re-used as-is, some modified, some things will be new. 
 
 Stephen's sessions:
 
