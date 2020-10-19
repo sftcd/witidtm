@@ -37,6 +37,7 @@ Stephen's sessions:
 - [The Web](lectures/2020-2021/200-web.pdf)
 - [Reading News](lectures/2020-2021/300-jellie.pdf)
 - [Stephen goes wrong, but Eoin corrects him:-)](lectures/2020-2021/400-layperson.pdf) 
+- [Machines/OSes and tracking](lectures/2020-2021/500-machines.pdf)
 
 Eoin's sesions:
 
