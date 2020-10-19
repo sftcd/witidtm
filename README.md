@@ -11,7 +11,6 @@ We'll be using the TCD
 tool for assignments etc. Apologies that only registered students can see that
 material.
 
-## Lecture/Labs Schedule
 ## Lecture/Online Session Schedule
 
 It's all online for now this year, sadly.
