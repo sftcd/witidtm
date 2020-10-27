@@ -50,7 +50,7 @@ Dave's sessions:
 
 Sessions with guests:
 
-- TBD
+- [Liz Farries](https://www.iccl.ie/staff/elizabeth-farries-information-rights-project-manager/) : [Regulating online spaces](lectures/2020-2021/liz-farries.pdf)
 
 
 
