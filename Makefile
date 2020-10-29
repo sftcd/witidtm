@@ -2,10 +2,11 @@ MDCMD=markdown_py
 # make sure -f is last
 MDOPTS=-f
 
-all: index.html
+all: indexraw.html
 
-index.html: README.md
-	$(MDCMD) $(MDOPTS) $(@) $(<) 
+indexraw.html: README.md
+	$(MDCMD) -x toc $(MDOPTS) $(@) $(<) 
 
-upload: index.html
-	ssh down.dsg.cs.tcd.ie "(cd /var/www/witidtm;git pull)"
+#Not sure about this upload
+#upload: index.html
+#	ssh down.dsg.cs.tcd.ie "(cd /var/www/witidtm;git pull)"

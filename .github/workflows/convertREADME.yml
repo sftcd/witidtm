@@ -1,0 +1,39 @@
+
+name: Convert READDME into html
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install markdown_py
+      run: sudo apt update && sudo apt install python-markdown make tree -y
+    - name: Remove old raw
+      run: rm indexraw.html
+    - name: Make 
+      run: make indexraw.html
+    - name: Create pdf index
+      run: |
+        cd thisyear
+        tree -H '.' -L 1 --noreport --charset utf-8 -P "*.pdf" > index.html  
+        cd ../lectures/2019-2020
+        tree -H '.' -L 1 --noreport --charset utf-8 -P "*.pdf" > index.html  
+        cd ../..
+    - name: Commit files
+      run: |
+        git config --local user.name "Github Action"
+        git add .
+        git commit -m "updated indexraw"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+        force: true
