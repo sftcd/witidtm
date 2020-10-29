@@ -38,7 +38,7 @@ Stephen's sessions:
 - [Reading News](lectures/2020-2021/300-jellie.pdf)
 - [Stephen goes wrong, but Eoin corrects him:-)](lectures/2020-2021/400-layperson.pdf) 
 - [Machines/OSes and tracking](lectures/2020-2021/500-machines.pdf)
-- [Passwords, the feckers](lectures/2020-2021/500-passwords.pdf)
+- [Passwords, the feckers](lectures/2020-2021/600-passwords.pdf)
 
 Eoin's sesions:
 
