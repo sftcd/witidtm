@@ -1,45 +1,64 @@
-<h1>What is the Internet doing to me? (witidtm)</h1>
-<p>20201024 stephen.farrell@cs.tcd.ie</p>
-<p>This is the repo for course content for TCD's witidtm elective module.
-(TEU00311) The canonical URL for this is
-<a href="https://down.dsg.cs.tcd.ie/witidtm/">https://down.dsg.cs.tcd.ie/witidtm/</a>.</p>
-<p>We'll be using the TCD
-<a href="https://tcd.blackboard.com/webapps/blackboard/execute/content/blankPage?cmd=view&amp;content_id=_1600800_1&amp;course_id=_69120_1">Blackboard</a>
-tool for assignments etc. Apologies that only registered students can see that
-material.</p>
-<h2>Lecture/Online Session Schedule</h2>
-<p>It's all online for now this year, sadly.</p>
-<ul>
-<li>Tuesday 1000-1050 online</li>
-<li>Thursday 1600-1750 online</li>
-</ul>
-<p>We'll do an "office hours" session Monday's at 1100, just drop in to the
-"Monday" blackboard session, and chat as you want. We can swap the timeslot
-later in the semester depending on how it conflicts with people's
-schedules.</p>
-<h2>Materials</h2>
-<p>Lecture content will accumulate <a href="./lectures/2020-2021/">here</a> as we go.
-Be aware that the content will change, even sometimes at the last minute!</p>
-<p>You can look at the materials from <a href="./lectures/2019-2020/">2019 here</a>. 
-Some of that is re-used as-is, some modified, some things will be new. </p>
-<p>Stephen's sessions:</p>
-<ul>
-<li><a href="lectures/2020-2021/100-intro.pdf">Introduction</a></li>
-<li><a href="lectures/2020-2021/200-web.pdf">The Web</a></li>
-<li><a href="lectures/2020-2021/300-jellie.pdf">Reading News</a></li>
-<li><a href="lectures/2020-2021/400-layperson.pdf">Stephen goes wrong, but Eoin corrects him:-)</a> </li>
-<li><a href="lectures/2020-2021/500-machines.pdf">Machines/OSes and tracking</a></li>
-<li><a href="lectures/2020-2021/600-passwords.pdf">Passwords, the feckers</a></li>
-</ul>
-<p>Eoin's sesions:</p>
-<ul>
-<li><a href="lectures/2020-2021/eod-100-oct13.pdf">GDPR requests (SAR/RTBF)</a></li>
-</ul>
-<p>Dave's sessions:</p>
-<ul>
-<li>TBD</li>
-</ul>
-<p>Sessions with guests:</p>
-<ul>
-<li><a href="https://www.iccl.ie/staff/elizabeth-farries-information-rights-project-manager/">Liz Farries</a> : <a href="lectures/2020-2021/liz-farries.pdf">Regulating online spaces</a></li>
-</ul>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>witidtm</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" id="head" href="#">Brand</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" id="home" href="https://github.com/sftcd/witidtm"><i class="fa fa-github" style="font-size: 25px;"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" id="home2" href="thisyear/">Lecture PDFS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page landing-page">
+        <hr>
+        <div class="text-center" id="intro"></div>
+        <hr>
+        <h1 class="text-uppercase text-center" id="lect-head"></h1>
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="text-center" id="lect"></div>
+                </div>
+                <div class="col">
+                    <div class="text-left" id="lect-times"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="text-center" id="office" style="padding-right: 10%;padding-left: 10%;"></div>
+            </div>
+        </div>
+        <hr>
+        <h1 class="text-uppercase text-center" id="mat-head"></h1>
+        <div class="container text-center" style="text-align: center;">
+            <div class="row row-cols-2 align-items-center">
+                <div class="col">
+                    <div class="text-center" id="mat"></div>
+                </div>
+                <div class="col">
+                    <div class="text-left" id="sess" style="text-align: center;"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/update_divs.js"></script>
+</body>
+
+</html>

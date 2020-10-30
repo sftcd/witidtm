@@ -1,4 +1,6 @@
-# What is the Internet doing to me? (witidtm)
+# <div id="header">What is the Internet doing to me? (witidtm)</div>
+
+<div id="intro" markdown="1">
 
 20201024 stephen.farrell@cs.tcd.ie
 
@@ -11,19 +13,35 @@ We'll be using the TCD
 tool for assignments etc. Apologies that only registered students can see that
 material.
 
-## Lecture/Online Session Schedule
+</div>
+
+# <div id="lect-header">Lecture/Online Session Schedule</div>
+
+<div id="lect" markdown="1"> 
 
 It's all online for now this year, sadly.
 
+</div>    
+
+<div id="lect-times" markdown="1"> 
+  
 - Tuesday 1000-1050 online
 - Thursday 1600-1750 online
+  
+</div>
+
+<div id="office" markdown="1">   
 
 We'll do an "office hours" session Monday's at 1100, just drop in to the
 "Monday" blackboard session, and chat as you want. We can swap the timeslot
 later in the semester depending on how it conflicts with people's
 schedules.
 
-## Materials
+</div>
+
+## <div id="materials-header">Materials</div>
+
+<div id="materials" markdown="1">  
 
 Lecture content will accumulate [here](./lectures/2020-2021/) as we go.
 Be aware that the content will change, even sometimes at the last minute!
@@ -31,6 +49,10 @@ Be aware that the content will change, even sometimes at the last minute!
 You can look at the materials from [2019 here](./lectures/2019-2020/). 
 Some of that is re-used as-is, some modified, some things will be new. 
 
+</div>
+
+<div id="sess" markdown="1">  
+  
 Stephen's sessions:
 
 - [Introduction](lectures/2020-2021/100-intro.pdf)
@@ -52,7 +74,7 @@ Sessions with guests:
 
 - [Liz Farries](https://www.iccl.ie/staff/elizabeth-farries-information-rights-project-manager/) : [Regulating online spaces](lectures/2020-2021/liz-farries.pdf)
 
+</div>  
 
-
-
-
+Last Updated:  
+Fri Oct 30 16:02:41 UTC 2020
