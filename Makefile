@@ -17,7 +17,6 @@ housekeeping:
 
 pdf_indexes:
 	tree -a thisyear -H '.' -L 1 --noreport --charset utf-8 -P "*.pdf" > thisyear/index.html
-	tree -a thisyear -H '.' -L 1 --noreport --charset utf-8 -P "*.pdf" > thisyear/index.html
 
 indexraw.html: README.md
 	$(MDCMD) -x md_in_html $(MDOPTS) $(@) $(<)

@@ -15,7 +15,7 @@ material.
 
 </div>
 
-# <div id="lect-header">Lecture/Online Session Schedule</div>
+## <div id="lect-header">Lecture/Online Session Schedule</div>
 
 <div id="lect" markdown="1"> 
 
@@ -77,4 +77,4 @@ Sessions with guests:
 </div>  
 
 Last Updated:  
-Fri Oct 30 16:02:41 UTC 2020
+Sun Nov  1 13:27:00 UTC 2020
