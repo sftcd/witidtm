@@ -21,15 +21,13 @@ material.
 
 It's all online for now this year, sadly.
 
-</div>    
-
+</div>
 <div id="lect-times" markdown="1"> 
   
 - Tuesday 1000-1050 online
 - Thursday 1600-1750 online
   
 </div>
-
 <div id="office" markdown="1">   
 
 We'll do an "office hours" session Monday's at 1100, just drop in to the
