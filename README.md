@@ -39,6 +39,7 @@ Stephen's sessions:
 - [Stephen goes wrong, but Eoin corrects him:-)](lectures/2020-2021/400-layperson.pdf) 
 - [Machines/OSes and tracking](lectures/2020-2021/500-machines.pdf)
 - [Passwords, the feckers](lectures/2020-2021/600-passwords.pdf)
+- [Web Advertising](lectures/2020-20201/700-ads.pdf)
 
 Eoin's sesions:
 
