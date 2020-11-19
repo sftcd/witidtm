@@ -40,6 +40,7 @@ Stephen's sessions:
 - [Machines/OSes and tracking](lectures/2020-2021/500-machines.pdf)
 - [Passwords, the feckers](lectures/2020-2021/600-passwords.pdf)
 - [Web Advertising](lectures/2020-2021/700-ads.pdf)
+- [Email](lectures/2020-2021/800-mail.pdf)
 
 Eoin's sesions:
 
