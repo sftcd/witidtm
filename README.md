@@ -41,6 +41,7 @@ Stephen's sessions:
 - [Passwords, the feckers](lectures/2020-2021/600-passwords.pdf)
 - [Web Advertising](lectures/2020-2021/700-ads.pdf)
 - [Email](lectures/2020-2021/800-mail.pdf)
+- [Covid Tracking Apps](lectures/2020-2021/900-covid.pdf)
 
 Eoin's sesions:
 
