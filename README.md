@@ -2,7 +2,7 @@
 
 <div id="intro" markdown="1">
 
-202011124 stephen.farrell@cs.tcd.ie
+202011126 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -61,6 +61,7 @@ Stephen's sessions:
 - [Passwords, the feckers](lectures/2020-2021/600-passwords.pdf)
 - [Web Advertising](lectures/2020-2021/700-ads.pdf)
 - [Email](lectures/2020-2021/800-mail.pdf)
+- [Covid Tracking Apps](lectures/2020-2021/900-covid.pdf)
 
 Eoin's sesions:
 
@@ -70,6 +71,7 @@ Dave's sessions:
 
 - [AI and Data Ethics](lectures/2020-2021/ai-data-ethics-part1.pdf)
 - [AI and Data Ethics 2](lectures/2020-2021/ai-data-ethics-part2.pdf)
+- [AI and Data Ethics 3](lectures/2020-2021/ai-data-ethics-part3.pdf)
 
 Sessions with guests:
 
@@ -78,4 +80,4 @@ Sessions with guests:
 </div>  
 
 Last Updated:  
-Tue Nov 24 09:59:43 UTC 2020
+Tue Dec  1 10:02:07 UTC 2020
