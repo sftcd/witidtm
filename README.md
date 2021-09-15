@@ -50,6 +50,7 @@ seems like a way to increase the amount of class interaction.
 Stephen's sessions:
 
 - [Introduction](lectures/2021-2022/100-intro.pdf)
+- [Survey Results](lectures/2021-2022/survey2021.pdf)
 - [The Web](lectures/2021-2022/200-web.pdf)
 
 Eoin's sesions:
