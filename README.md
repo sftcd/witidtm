@@ -144,6 +144,7 @@ Sessions with guests:
 - [Liz Farries](https://www.iccl.ie/staff/elizabeth-farries-information-rights-project-manager/) : [Regulating online spaces](lectures/2020-2021/liz-farries.pdf)
 
 Notes/stories:
+- [voter identification](https://www.nytimes.com/2021/09/20/nyregion/voters-dante-deblasio.html)
 - [700M LinkedIn a/cs scraped](https://restoreprivacy.com/linkedin-data-leak-700-million-users/)
 
 
