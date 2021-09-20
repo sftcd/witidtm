@@ -24,12 +24,58 @@ tool.
 Our regular lecture slots are:
 
 - Tuesday 1000-1050 online
-- Thursday 1600-1750 online
+- Thursday 1600-1750 ORI LG36 until Oct 14th with class split in two
 
 We'll do an "office hours" session on Monday's at 1100, just drop in to the
 "Monday office hours" blackboard session, and chat as you want. We can swap the timeslot
 later in the semester depending on how it conflicts with people's
 schedules.
+
+## LG36 Labs
+
+We'll be running lab-like sessions up to and including October 14th 
+in the LG36 lab in the O'Reilly Institute building (the ORI). 
+
+If you are bringing your own laptop (recommended) then you 
+should try get that setup on the college network beforehand
+if you can. 
+
+If you can't bring a laptop, you can use a lab machine. You
+should have gotten an email with a username/password for
+that access around September 20th (or earlier) from the school of computer
+science and statistics (SCSS). If you are taking some other
+SCSS module, you may have gotten that email earlier. Please
+check your spam folder, and have these credentials to hand
+as you arrive for the session.
+
+### Class Split Logistics
+
+As the 1m distancing capacity of LG36 is 36 and we currently have
+55 students registered for the module, we'll split into two groups,
+one of which will use the 1600-1645 slot on Thursdays, which the
+other group will use the 1700-1745 slot. We do have some ability
+to swap from one group to the other, so if you'd prefer a swap,
+email Stephen.
+
+Meanwhile, <strong>we'll assign students with surnames starting with A to K
+(inclusive) to the 1600 group, and other students to the 1700 group</strong>.
+
+### Location
+
+The campus map below shows the location of ORI LG36:
+
+<a href="lectures/2021-2022/tcd-campus-lg36.png"><img width="60%" src="lectures/2021-2022/tcd-campus-lg36.png"></a>
+
+ORI LG36 is entered directly from outdoors on the ground level (to your left
+before the steps up to the ORI main entrance) as shown by:
+
+<a href="lectures/2021-2022/oriLG.png"><img width="60%" src="lectures/2021-2022/oriLG.png"></a>
+
+### 1m distancing
+
+The diagram below shows the "1m-distancing" room layout for LG36:
+
+<a href="lectures/2021-2022/1mdist.jpg"><img width="60%" src="lectures/2021-2022/1mdist.jpg"></a>
 
 ## Materials
 
