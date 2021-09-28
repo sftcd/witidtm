@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20210927 stephen.farrell@cs.tcd.ie
+20210928 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -102,9 +102,12 @@ Stephen's sessions:
 - [Survey Results](lectures/2021-2022/survey2021.pdf)
 - [The Web](lectures/2021-2022/200-web.pdf)
 
-Eoin's sesions:
+Eoin's links/sessions:
 
-- TBD
+- Privacy [pptx (preferred)](lectures/2021-2022/eoin-100-privacy.pptx),[odp](lectures/2021-2022/eoin-100-privacy.odp),[pdf](lectures/2021-2022/eoin-100-privacy.pdf)
+    - The [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
+    - The Irish [Data Protection Commission](https://www.dataprotection.ie/)
+    - The Irish [Data Protection Act, 2018](http://www.irishstatutebook.ie/eli/2018/act/7/)
 
 Dave's sessions:
 
