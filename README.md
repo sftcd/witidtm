@@ -104,7 +104,7 @@ Stephen's sessions:
 
 Eoin's links/sessions:
 
-- Privacy [pptx (preferred)](lectures/2021-2022/eoin-100-privacy.pptx),[odp](lectures/2021-2022/eoin-100-privacy.odp),[pdf](lectures/2021-2022/eoin-100-privacy.pdf)
+- Privacy. Slides: [pptx (preferred)](lectures/2021-2022/eoin-100-privacy.pptx),[odp](lectures/2021-2022/eoin-100-privacy.odp),[pdf](lectures/2021-2022/eoin-100-privacy.pdf)
     - The [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
     - The Irish [Data Protection Commission](https://www.dataprotection.ie/)
     - The Irish [Data Protection Act, 2018](http://www.irishstatutebook.ie/eli/2018/act/7/)
