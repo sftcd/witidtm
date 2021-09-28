@@ -11,11 +11,12 @@ We'll be using the TCD
 tool for assignments etc. Apologies that only registered students can see that
 material.
 
+Lecture slides etc are [below](#materials).
+
 ## Lecture/Online Session Schedule
 
-It's almost all online for the start of the semester,
-but hopefully we'll get face to face sessions in the
-not too distant.
+It's partly online for the start of the semester, but hopefully we'll get fully
+back to face to face sessions in the not too distant.
 
 You can join sessions via 
 the [blackboard collaborate ultra](https://tcd.blackboard.com/webapps/collab-ultra/tool/collabultra?course_id=_74933_1) 
@@ -24,12 +25,55 @@ tool.
 Our regular lecture slots are:
 
 - Tuesday 1000-1050 online
-- Thursday 1600-1750 ORI LG36 until Oct 14th with class split in two
+- Thursday 1600-1750 [ORI LG36](#lg36labs) until Oct 14th with class split in two
+
+See [below](#lg36labs) for lab location/logistics.
 
 We'll do an "office hours" session on Monday's at 1100, just drop in to the
-"Monday office hours" blackboard session, and chat as you want. We can swap the timeslot
-later in the semester depending on how it conflicts with people's
+"Monday office hours" blackboard session, and chat as you want. We can swap the
+timeslot later in the semester depending on how it conflicts with people's
 schedules.
+
+## Materials
+
+Lecture content will accumulate [here](./lectures/2021-2022/) as we go.
+Be aware that the content will change, even sometimes at the last minute!
+
+You can look at the materials from last year [below](#oldlectureslides) or
+the [2019 stuff here](./lectures/2019-2020/). 
+This year's content will re-use some of that, likely modifed, and
+some things will be new. 
+
+You can also enjoy (heh:-) the 
+[2020 recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) 
+if you want. We might ask you to watch bits of those videos if that
+seems like a way to increase the amount of class interaction. 
+(We'll play that by ear, not sure yet if it'd work.)
+
+Lab sessions:
+- [labs](lectures/2021-2022/labs.pdf)
+
+Stephen's sessions:
+
+- [Introduction](lectures/2021-2022/100-intro.pdf)
+- [Survey Results](lectures/2021-2022/survey2021.pdf)
+- [The Web](lectures/2021-2022/200-web.pdf)
+
+Eoin's links/sessions:
+
+- Privacy. Slides: [pptx (preferred)](lectures/2021-2022/eoin-100-privacy.pptx),[odp](lectures/2021-2022/eoin-100-privacy.odp),[pdf](lectures/2021-2022/eoin-100-privacy.pdf)
+    - The [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
+    - The Irish [Data Protection Commission](https://www.dataprotection.ie/)
+    - The Irish [Data Protection Act, 2018](http://www.irishstatutebook.ie/eli/2018/act/7/)
+
+Dave's sessions:
+
+- TBD
+
+Guest sessions:
+
+- TBD
+
 
 ## LG36 Labs
 
@@ -76,47 +120,6 @@ before the steps up to the ORI main entrance) as shown by:
 The diagram below shows the "1m-distancing" room layout for LG36:
 
 <a href="lectures/2021-2022/1mdist.jpg"><img width="60%" src="lectures/2021-2022/1mdist.jpg"></a>
-
-## Materials
-
-Lecture content will accumulate [here](./lectures/2021-2022/) as we go.
-Be aware that the content will change, even sometimes at the last minute!
-
-You can look at the materials from last year [below](#oldlectureslides) or
-the [2019 stuff here](./lectures/2019-2020/). 
-This year's content will re-use some of that, likely modifed, and
-some things will be new. 
-
-You can also enjoy (heh:-) the 
-[2020 recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) 
-if you want. We might ask you to watch bits of those videos if that
-seems like a way to increase the amount of class interaction. 
-(We'll play that by ear, not sure yet if it'd work.)
-
-Lab sessions:
-- [labs](lectures/2021-2022/labs.pdf)
-
-Stephen's sessions:
-
-- [Introduction](lectures/2021-2022/100-intro.pdf)
-- [Survey Results](lectures/2021-2022/survey2021.pdf)
-- [The Web](lectures/2021-2022/200-web.pdf)
-
-Eoin's links/sessions:
-
-- Privacy. Slides: [pptx (preferred)](lectures/2021-2022/eoin-100-privacy.pptx),[odp](lectures/2021-2022/eoin-100-privacy.odp),[pdf](lectures/2021-2022/eoin-100-privacy.pdf)
-    - The [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
-    - The Irish [Data Protection Commission](https://www.dataprotection.ie/)
-    - The Irish [Data Protection Act, 2018](http://www.irishstatutebook.ie/eli/2018/act/7/)
-
-Dave's sessions:
-
-- TBD
-
-Guest sessions:
-
-- TBD
-
 
 ## Old lecture slides
 
