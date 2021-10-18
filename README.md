@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20211014 stephen.farrell@cs.tcd.ie
+20211018 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -25,9 +25,8 @@ tool.
 Our regular lecture slots are:
 
 - Tuesday 1000-1050 online
-- Thursday 1600-1750 [ORI LG36](#lg36labs) until Oct 14th with class split in two
-
-See [below](#lg36labs) for lab location/logistics.
+- Thursday 1600-1750, Lloyd building LB01, for October 21st
+  with class split in two, same as when we used LG36
 
 We'll do an "office hours" session on Monday's at 1100, just drop in to the
 "Monday office hours" blackboard session, and chat as you want. We can swap the
@@ -58,6 +57,7 @@ Stephen's sessions:
 - [Introduction](lectures/2021-2022/100-intro.pdf)
 - [Survey Results](lectures/2021-2022/survey2021.pdf)
 - [The Web](lectures/2021-2022/200-web.pdf)
+- [Reading News](lectures/2021-2022/300-jellie.pdf)
 
 Eoin's links/sessions:
 
