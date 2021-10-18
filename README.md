@@ -74,7 +74,7 @@ Dave's sessions:
 
 Guest sessions:
 
-- TBD
+- Liz Farries : [Regulating online harassment](lectures/2021-2022/IBSA.Farries.2021.pdf)
 
 ## Old lecture slides
 
