@@ -21,7 +21,7 @@ splitting the class needed.
 Our regular lecture slots are:
 
 - Tuesday 1000-1050, Museum building, M20
-- Thursday 1600-1750, Lloyd building LB01
+- Thursday 1600-1750, Lloyd building, LB01
 
 We'll still do an online "office hours" session on Monday's at 1100, just drop in to the
 "Monday office hours" blackboard session, and chat as you want. 
@@ -55,6 +55,7 @@ Stephen's sessions:
 - [Survey Results](lectures/2021-2022/survey2021.pdf)
 - [The Web](lectures/2021-2022/200-web.pdf)
 - [Reading News](lectures/2021-2022/300-jellie.pdf)
+- [Machines/OSes and tracking](lectures/2021-2022/400-machines.pdf)
 
 - [Assignment 2 details](lectures/2021-2022/assignment2.pdf)
 
