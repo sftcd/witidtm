@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20211021 stephen.farrell@cs.tcd.ie
+20211029 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -15,23 +15,22 @@ Lecture slides etc are [below](#materials).
 
 ## Lecture/Online Session Schedule
 
-It's partly online for the start of the semester, but hopefully we'll get fully
-back to face to face sessions in the not too distant.
-
-You can join sessions via 
-the [blackboard collaborate ultra](https://tcd.blackboard.com/webapps/collab-ultra/tool/collabultra?course_id=_74933_1) 
-tool.
+We're back face-to-face for the second half of the semester, with no more
+splitting the class needed.
 
 Our regular lecture slots are:
 
-- Tuesday 1000-1050 online
-- Thursday 1600-1750, Lloyd building LB01, for October 21st
-  with class split in two, same as when we used LG36
+- Tuesday 1000-1050, Museum building, M20
+- Thursday 1600-1750, Lloyd building LB01
 
-We'll do an "office hours" session on Monday's at 1100, just drop in to the
+We'll still do an online "office hours" session on Monday's at 1100, just drop in to the
 "Monday office hours" blackboard session, and chat as you want. We can swap the
 timeslot later in the semester depending on how it conflicts with people's
 schedules.
+
+You can still also join sessions online via 
+the [blackboard collaborate ultra](https://tcd.blackboard.com/webapps/collab-ultra/tool/collabultra?course_id=_74933_1) 
+tool, and review recordings as before.
 
 ## Materials
 
