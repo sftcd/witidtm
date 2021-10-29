@@ -24,9 +24,7 @@ Our regular lecture slots are:
 - Thursday 1600-1750, Lloyd building LB01
 
 We'll still do an online "office hours" session on Monday's at 1100, just drop in to the
-"Monday office hours" blackboard session, and chat as you want. We can swap the
-timeslot later in the semester depending on how it conflicts with people's
-schedules.
+"Monday office hours" blackboard session, and chat as you want. 
 
 You can still also join sessions online via 
 the [blackboard collaborate ultra](https://tcd.blackboard.com/webapps/collab-ultra/tool/collabultra?course_id=_74933_1) 
