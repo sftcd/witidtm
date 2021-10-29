@@ -46,8 +46,10 @@ if you want. We might ask you to watch bits of those videos if that
 seems like a way to increase the amount of class interaction. 
 (We'll play that by ear, not sure yet if it'd work.)
 
-Lab sessions:
+Lab/Assignment slides:
+
 - [labs](lectures/2021-2022/labs.pdf)
+- [Assignment 2 details](lectures/2021-2022/assignment2.pdf)
 
 Stephen's sessions:
 
@@ -57,7 +59,6 @@ Stephen's sessions:
 - [Reading News](lectures/2021-2022/300-jellie.pdf)
 - [Machines/OSes and tracking](lectures/2021-2022/400-machines.pdf)
 
-- [Assignment 2 details](lectures/2021-2022/assignment2.pdf)
 
 Eoin's links/sessions:
 
