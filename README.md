@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20211029 stephen.farrell@cs.tcd.ie
+20211101 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -69,7 +69,7 @@ Eoin's links/sessions:
 
 Dave's sessions:
 
-- TBD
+- [AI and ethics#1](lectures/2021-2022/ai-ethics1.pdf)
 
 Guest sessions:
 
