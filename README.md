@@ -58,6 +58,8 @@ Stephen's sessions:
 - [The Web](lectures/2021-2022/200-web.pdf)
 - [Reading News](lectures/2021-2022/300-jellie.pdf)
 - [Machines/OSes and tracking](lectures/2021-2022/400-machines.pdf)
+- [Passwords, the feckers](lectures/2021-2022/500-passwords.pdf)
+- [Web Advertising](lectures/2021-2022/600-ads.pdf)
 
 
 Eoin's links/sessions:
