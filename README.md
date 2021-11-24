@@ -79,6 +79,7 @@ Guest sessions:
 
 - Liz Farries : [Regulating online harassment](lectures/2021-2022/IBSA.Farries.2021.pdf)
 - Harshvardhan J. Pandit: [Why Must I Always Click on Accept All?](lectures/2021-2022/harsh-consent.pdf)
+- Doug Leith: [Looking inside your phone …](lectures/2021-2022/doug-phones.pdf)
 
 ## Old lecture slides
 
