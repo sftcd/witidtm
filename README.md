@@ -118,5 +118,10 @@ Notes/stories:
 - [voter identification](https://www.nytimes.com/2021/09/20/nyregion/voters-dante-deblasio.html)
 - [700M LinkedIn a/cs scraped](https://restoreprivacy.com/linkedin-data-leak-700-million-users/)
 
+# 2022/2023 prep...
+
+Stuff that might be included next time I run the module:
+
+- a [story](https://text.npr.org/2022/05/25/1101275323/twitter-privacy-settlement-doj-ftc) worth noting
 
 
