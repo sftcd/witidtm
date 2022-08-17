@@ -50,7 +50,7 @@ if you want.
 Stephen's sessions:
 
 - [Introduction](lectures/2022-2023/100-intro.pdf)
-- [The Web](lectures/2023-2023/200-web.pdf)
+- [The Web](lectures/2022-2023/200-web.pdf)
 
 Lab slides:
 
