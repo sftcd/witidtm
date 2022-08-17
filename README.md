@@ -40,6 +40,8 @@ This year's content will re-use some of that, likely modifed, and
 some things will be new. 
 
 You can also enjoy (heh:-) the 
+[2021 recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2021/) 
+or
 [2020 recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) 
 if you want.
 
