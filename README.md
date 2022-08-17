@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20211201 stephen.farrell@cs.tcd.ie
+20220817 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -21,7 +21,9 @@ splitting the class needed.
 Our regular lecture slots are:
 
 - Tuesday 1000-1050, Museum building, M20
-- Thursday 1600-1750, Lloyd building, LB01
+- Thursday 1600-1750, Lloyd building, M20
+
+We have labs in ORI LG36 on Thursday 22nd and 29th September instead of lectures.
 
 We'll still do an online "office hours" session on Monday's at 1100, just drop in to the
 "Monday office hours" blackboard session, and chat as you want. 
@@ -32,10 +34,10 @@ tool, and review recordings as before.
 
 ## Materials
 
-Lecture content will accumulate [here](./lectures/2021-2022/) as we go.
+Lecture content will accumulate [here](./lectures/2022-2023/) as we go.
 Be aware that the content will change, even sometimes at the last minute!
 
-You can look at the materials from last year [below](#oldlectureslides) or
+You can look at the materials from previous years [below](#oldlectureslides) or
 the [2019 stuff here](./lectures/2019-2020/). 
 This year's content will re-use some of that, likely modifed, and
 some things will be new. 
@@ -46,9 +48,23 @@ if you want. We might ask you to watch bits of those videos if that
 seems like a way to increase the amount of class interaction. 
 (We'll play that by ear, not sure yet if it'd work.)
 
+## Materials
+
+Stephen's sessions:
+
+- [Introduction](lectures/2022-2023/100-intro.pdf)
+
+Lab slides:
+
+- [labs](lectures/2022-2023/labs.pdf)
+
+## Old lecture slides
+
+### 2021
+
 Lab/Assignment slides:
 
-- [labs](lectures/2021-2022/labs.pdf)
+- [labs](lectures/2022-2023/labs.pdf)
 - [Assignment 2 details](lectures/2021-2022/assignment2.pdf)
 
 Stephen's sessions:
@@ -82,8 +98,6 @@ Guest sessions:
 - Liz Farries : [Regulating online harassment](lectures/2021-2022/IBSA.Farries.2021.pdf)
 - Harshvardhan J. Pandit: [Why Must I Always Click on Accept All?](lectures/2021-2022/harsh-consent.pdf)
 - Doug Leith: [Looking inside your phone...](lectures/2021-2022/doug-phones.pdf)
-
-## Old lecture slides
 
 ### 2020
 
