@@ -15,9 +15,6 @@ Lecture slides etc are [below](#materials).
 
 ## Lecture/Online Session Schedule
 
-We're back face-to-face for the second half of the semester, with no more
-splitting the class needed.
-
 Our regular lecture slots are:
 
 - Tuesday 1000-1050, Museum building, M20
@@ -44,9 +41,7 @@ some things will be new.
 
 You can also enjoy (heh:-) the 
 [2020 recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) 
-if you want. We might ask you to watch bits of those videos if that
-seems like a way to increase the amount of class interaction. 
-(We'll play that by ear, not sure yet if it'd work.)
+if you want.
 
 ## Materials
 
@@ -57,6 +52,10 @@ Stephen's sessions:
 Lab slides:
 
 - [labs](lectures/2022-2023/labs.pdf)
+
+News-ish things:
+
+- a [story](https://text.npr.org/2022/05/25/1101275323/twitter-privacy-settlement-doj-ftc) worth noting
 
 ## Old lecture slides
 
@@ -132,10 +131,6 @@ Notes/stories:
 - [voter identification](https://www.nytimes.com/2021/09/20/nyregion/voters-dante-deblasio.html)
 - [700M LinkedIn a/cs scraped](https://restoreprivacy.com/linkedin-data-leak-700-million-users/)
 
-# 2022/2023 prep...
 
-Stuff that might be included next time I run the module:
-
-- a [story](https://text.npr.org/2022/05/25/1101275323/twitter-privacy-settlement-doj-ftc) worth noting
 
 
