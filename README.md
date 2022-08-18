@@ -7,7 +7,7 @@ This is the repo for course content for TCD's witidtm elective module.
 [https://down.dsg.cs.tcd.ie/witidtm/](https://down.dsg.cs.tcd.ie/witidtm/).
 
 We'll be using the TCD
-[Blackboard](https://tcd.blackboard.com/webapps/blackboard/content/listContent.jsp?course_id=_74933_1&content_id=_1983242_1)
+[Blackboard](https://tcd.blackboard.com/webapps/blackboard/content/listContentEditable.jsp?content_id=_2322556_1&course_id=_81096_1&mode=reset) 
 tool for assignments etc. Apologies that only registered students can see that
 material.
 
