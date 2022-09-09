@@ -27,10 +27,10 @@ We have labs in ORI LG36 on Thursday 22nd and 29th September instead of lectures
 [Here's](lectures/2022-2023/map-2-lg36.png) a map of TCD showing where to find LG36, and 
 [here's](lectures/2022-2023/oriLG.png) a diagram showing where the door is (it's non-obvious:-).
 
-We'll still do an online "office hours" session on Monday's at 1100, just drop in to the
-"Monday office hours" blackboard session, and chat as you want. 
+We'll still do an [online "office hour" session on Monday's at 1100](https://eu.bbcollab.com/guest/a79cf43c8eb64d20865ae9ef3bbee729), just drop
+in to the "office hour" blackboard session, and chat as you want. 
 
-You can join sessions online via 
+You can join office hour sessions online via 
 the [blackboard collaborate ultra](https://tcd.blackboard.com/webapps/collab-ultra/tool/collabultra?course_id=_74933_1) 
 tool.
 
