@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20220913 stephen.farrell@cs.tcd.ie
+20220915 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -20,7 +20,7 @@ no recordings.
 
 Our lecture slots are:
 
-- Tuesday 1000-1050, Museum building, M20 or maybe Lloyd 1.07 - still checking... ;-)
+- Tuesday 1000-1050, Museum building, Lloyd 1.07
 - Thursday 1600-1750, Museum building, M20
 
 We have labs in ORI LG36 on Thursday 22nd and 29th September instead of lectures.
