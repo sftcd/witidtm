@@ -57,6 +57,7 @@ Stephen's sessions:
 - [Introduction](lectures/2022-2023/100-intro.pdf)
 - [The Web](lectures/2022-2023/200-web.pdf)
 - [2022 survey results](lectures/2022-2023/survey2022.pdf)
+- [The Jell.ie news](lectures/2022-2023/300-jellie.pdf)
 
 Lab slides:
 
