@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20220919 stephen.farrell@cs.tcd.ie
+20220920 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -65,6 +65,8 @@ Lab slides:
 
 News-ish things:
 
+- a [report](https://foundation.mozilla.org/en/youtube/user-controls/) describing how youtube recommender controls
+  don't actually work
 - a [story](https://text.npr.org/2022/05/25/1101275323/twitter-privacy-settlement-doj-ftc) worth noting
 
 ## Old lecture slides
@@ -140,7 +142,4 @@ Sessions with guests:
 Notes/stories:
 - [voter identification](https://www.nytimes.com/2021/09/20/nyregion/voters-dante-deblasio.html)
 - [700M LinkedIn a/cs scraped](https://restoreprivacy.com/linkedin-data-leak-700-million-users/)
-
-
-
 
