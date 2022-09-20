@@ -1,4 +1,4 @@
-# These are the files from 2022-2023 are here
+# The files from 2022-2023 are here
 
  - [100-intro.odp](100-intro.odp)
  - [100-intro.pdf](100-intro.pdf)
