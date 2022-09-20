@@ -1,0 +1,16 @@
+# These are the files from 2022-2023 are here
+
+ - [100-intro.odp](100-intro.odp)
+ - [100-intro.pdf](100-intro.pdf)
+ - [200-web.odp](200-web.odp)
+ - [200-web.pdf](200-web.pdf)
+ - [300-jellie.odp](300-jellie.odp)
+ - [300-jellie.pdf](300-jellie.pdf)
+ - [labs.odp](labs.odp)
+ - [labs.pdf](labs.pdf)
+ - [map-2-lg36.png](map-2-lg36.png)
+ - [office-hours.odp](office-hours.odp)
+ - [office-hours.pdf](office-hours.pdf)
+ - [oriLG.png](oriLG.png)
+ - [survey2022.odp](survey2022.odp)
+ - [survey2022.pdf](survey2022.pdf)
