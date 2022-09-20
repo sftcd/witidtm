@@ -15,5 +15,11 @@ lectures/2022-2023/index.html: lectures/2022-2023/README.md
 lectures/2021-2022/index.html: lectures/2021-2022/README.md
 	$(MDCMD) $(MDOPTS) $(<) > $(@) 
 
+lectures/2020-2021/index.html: lectures/2020-2021/README.md
+	$(MDCMD) $(MDOPTS) $(<) > $(@) 
+
+lectures/2019-2020/index.html: lectures/2019-2020/README.md
+	$(MDCMD) $(MDOPTS) $(<) > $(@) 
+
 upload: index.html
 	ssh down.dsg.cs.tcd.ie "(cd /var/www/witidtm;git pull)"
