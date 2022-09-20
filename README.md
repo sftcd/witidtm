@@ -5,6 +5,8 @@
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
 [https://down.dsg.cs.tcd.ie/witidtm/](https://down.dsg.cs.tcd.ie/witidtm/).
+On github, this is [https://github.com/sftcd/witidtm](https://github.com/sftcd/witidtm).
+The content should be identical.
 
 We'll be using the TCD
 [Blackboard](https://tcd.blackboard.com/webapps/blackboard/content/listContentEditable.jsp?content_id=_2322556_1&course_id=_81096_1&mode=reset) 
