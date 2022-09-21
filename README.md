@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20220920 stephen.farrell@cs.tcd.ie
+20220921 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -67,6 +67,7 @@ Lab slides:
 
 News-ish things:
 
+- an [El Reg report](https://www.theregister.com/2022/09/20/mssb_sec_fine/) on how a respectable company can accidentally leak data
 - a [report](https://foundation.mozilla.org/en/youtube/user-controls/) describing how youtube recommender controls
   don't actually work
 - a [story](https://text.npr.org/2022/05/25/1101275323/twitter-privacy-settlement-doj-ftc) worth noting
