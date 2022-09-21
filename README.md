@@ -67,6 +67,7 @@ Lab slides:
 
 News-ish things:
 
+- [Ars story](https://arstechnica.com/information-technology/2022/09/artist-finds-private-medical-record-photos-in-popular-ai-training-data-set/) that someone found their medical images in an AI training set
 - an [El Reg report](https://www.theregister.com/2022/09/20/mssb_sec_fine/) on how a respectable company can accidentally leak data
 - a [report](https://foundation.mozilla.org/en/youtube/user-controls/) describing how youtube recommender controls
   don't actually work
