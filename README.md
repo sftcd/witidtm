@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20220922 stephen.farrell@cs.tcd.ie
+20220925 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -67,6 +67,8 @@ Lab slides:
 
 News-ish things:
 
+- [New York Times](https://www.nytimes.com/2022/09/24/technology/surveillance-footage-instagram.html) story about an artist playing with instatram photos and surveillence footage (incl. some from Dublin)
+- [Ars story](https://arstechnica.com/information-technology/2022/09/how-3-hours-of-inaction-from-amazon-cost-cryptocurrency-holders-235000/) on how a 3 hour BGP hijack enabled $250k cryptocurrency theft
 - [Ars story](https://arstechnica.com/information-technology/2022/09/artist-finds-private-medical-record-photos-in-popular-ai-training-data-set/) that someone found their medical images in an AI training set
 - an [El Reg report](https://www.theregister.com/2022/09/20/mssb_sec_fine/) on how a respectable company can accidentally leak data
 - a [report](https://foundation.mozilla.org/en/youtube/user-controls/) describing how youtube recommender controls
