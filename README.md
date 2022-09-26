@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20220925 stephen.farrell@cs.tcd.ie
+20220926 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
