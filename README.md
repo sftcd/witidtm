@@ -61,6 +61,10 @@ Stephen's sessions:
 - [2022 survey results](lectures/2022-2023/survey2022.pdf)
 - [The jell.ie news](lectures/2022-2023/300-jellie.pdf)
 
+Assignment AS1:
+
+- [Device tracking assignment](lectures/2022-2023/as1.pdf)
+
 Lab slides:
 
 - [labs](lectures/2022-2023/labs.pdf)
