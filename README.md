@@ -64,7 +64,7 @@ Stephen's sessions:
 - [eMail](lectures/2022-2023/500-mail.pdf)
 - [Passwords](lectures/2022-2023/600-passwords.pdf)
 
-Assignment AS1:
+Assignments:
 
 - [Device tracking assignment](lectures/2022-2023/as1.pdf)
 - [GDPR request assignment](lectures/2022-2023/as2.pdf)
