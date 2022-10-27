@@ -66,9 +66,9 @@ Stephen's sessions:
 
 Eoin's sessions:
 
-- [Legal Issues, Copyright & Censorship](eoin1.pdf)
-- [Legal Issues, DSARs, RtbF Requests etc.](eoin2.pdf)
-    - [recording](eoin2-recording.mp4)
+- [Legal Issues, Copyright & Censorship](lectures/2022-2023/eoin1.pdf)
+- [Legal Issues, DSARs, RtbF Requests etc.](lectures/2022-2023/eoin2.pdf)
+    - [recording](lectures/2022-2023/eoin2-recording.mp4) (note: not in github repo due to size)
 
 Assignments:
 
