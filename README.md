@@ -64,6 +64,12 @@ Stephen's sessions:
 - [eMail](lectures/2022-2023/500-mail.pdf)
 - [Passwords](lectures/2022-2023/600-passwords.pdf)
 
+Eoin's sessions:
+
+- [Legal Issues, Copyright & Censorship](eoin1.pdf)
+- [Legal Issues, DSARs, RtbF Requests etc.](eoin2.pdf)
+    - [recording](eoin2-recording.mp4)
+
 Assignments:
 
 - [Device tracking assignment](lectures/2022-2023/as1.pdf)

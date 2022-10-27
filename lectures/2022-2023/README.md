@@ -24,4 +24,9 @@
  - [as1.pdf](as1.pdf)
  - [as2.odp](as2.odp)
  - [as2.pdf](as2.pdf)
+ - [eoin1.pdf](eoin1.pdf)
+ - [eoin1.pptx](eoin1.pptx)
+ - [eoin2.pdf](eoin2.pdf)
+ - [eoin2.pptx](eoin2.pptx)
+ - [eoin2-recording.mp4](eoin2-recording.mp4)
 
