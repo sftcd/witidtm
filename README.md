@@ -71,6 +71,7 @@ Eoin's sessions:
     - [recording](lectures/2022-2023/eoin2-recording.mp4) (note: not in github repo due to size)
 
 Guest lectures:
+
 - Liz Farries, [Policing Facial Recognition Technology](lectures/2022-2023/policing-frt.pdf)
 
 Assignments:
