@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20221020 stephen.farrell@cs.tcd.ie
+20221103 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -69,6 +69,9 @@ Eoin's sessions:
 - [Legal Issues, Copyright & Censorship](lectures/2022-2023/eoin1.pdf)
 - [Legal Issues, DSARs, RtbF Requests etc.](lectures/2022-2023/eoin2.pdf)
     - [recording](lectures/2022-2023/eoin2-recording.mp4) (note: not in github repo due to size)
+
+Guest lectures:
+- Liz Farries, [Policing Facial Recognition Technology](lectures/2022-2023/policing-frt.pdf)
 
 Assignments:
 
