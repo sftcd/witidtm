@@ -72,7 +72,7 @@ Eoin's sessions:
 
 Guest lectures:
 
-- TBD
+- Liz Farries, [Policing Facial Recognition Technology](lectures/2022-2023/policing-frt.pdf)
 
 Assignments:
 
