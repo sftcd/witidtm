@@ -85,6 +85,7 @@ Lab slides:
 
 News-ish things:
 
+- Wired article on [Soccer stadia with facial recognition](https://www.wired.com/story/soccer-world-cup-biometric-surveillance/)
 - [Report](https://www.qurium.org/press-releases/pr_under-the-hood-of-a-doppelganger/) on a Russia/Ukraine related disinformation campaign,
 that shows how the bad actor leaves DNS and other traces visible
 - [New York Times](https://www.nytimes.com/2022/09/24/technology/surveillance-footage-instagram.html) story about an artist playing with instatram photos and surveillence footage (incl. some from Dublin)
