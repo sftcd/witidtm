@@ -85,6 +85,7 @@ Lab slides:
 
 News-ish things:
 
+- Amusing AI fake thing: [endless conversation](https://arstechnica.com/information-technology/2022/11/herzog-and-zizek-become-uncanny-ai-bots-trapped-in-endless-conversation/)
 - Wired article on [Soccer stadia with facial recognition](https://www.wired.com/story/soccer-world-cup-biometric-surveillance/)
 - [Report](https://www.qurium.org/press-releases/pr_under-the-hood-of-a-doppelganger/) on a Russia/Ukraine related disinformation campaign,
 that shows how the bad actor leaves DNS and other traces visible
