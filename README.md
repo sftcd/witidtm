@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20221103 stephen.farrell@cs.tcd.ie
+20221121 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -70,6 +70,11 @@ Eoin's sessions:
 - [Legal Issues, DSARs, RtbF Requests etc.](lectures/2022-2023/eoin2.pdf)
     - [recording](lectures/2022-2023/eoin2-recording.mp4) (note: not in github repo due to size)
 
+Dave's sessions:
+- [AI and ethics 1](lectures/2022-2023/AI-ethics1.pdf)
+- [AI and ethics 2](lectures/2022-2023/AI-ethics2.pdf)
+    - Ethics canvas [handbook](lectures/2022-2023/Ethics-Canvas-Handbook-v3.pdf), [template](ethics-canvas-template.pptx)
+
 Guest lectures:
 
 - Liz Farries, [Policing Facial Recognition Technology](lectures/2022-2023/policing-frt.pdf)
@@ -78,6 +83,7 @@ Assignments:
 
 - [Device tracking assignment](lectures/2022-2023/as1.pdf)
 - [GDPR request assignment](lectures/2022-2023/as2.pdf)
+- [Group ethics assignment](lectures/2022-2023/groupca-teu00311.pdf)
 
 Lab slides:
 

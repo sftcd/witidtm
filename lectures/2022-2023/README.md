@@ -30,4 +30,8 @@
  - [eoin2.pptx](eoin2.pptx)
  - [eoin2-recording.mp4](eoin2-recording.mp4)
  - [policing-frt.pdf](policing-frt.pdf)
-
+ - [AI-ethics1.pdf](AI-ethics1.pdf)
+ - [AI-ethics2.pdf](AI-ethics2.pdf)
+ - [Ethics-Canvas-Handbook-v3.pdf](Ethics-Canvas-Handbook-v3.pdf)
+ - [ethics-canvas-template.pptx](ethics-canvas-template.pptx)
+ - [groupca-teu00311.pdf](groupca-teu00311.pdf)
