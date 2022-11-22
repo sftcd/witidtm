@@ -35,3 +35,4 @@
  - [Ethics-Canvas-Handbook-v3.pdf](Ethics-Canvas-Handbook-v3.pdf)
  - [ethics-canvas-template.pptx](ethics-canvas-template.pptx)
  - [groupca-teu00311.pdf](groupca-teu00311.pdf)
+ - [Harsh_WITIDTM_2022.pdf](Harsh_WITIDTM_2022.pdf)
