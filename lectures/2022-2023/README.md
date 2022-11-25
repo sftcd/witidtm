@@ -36,3 +36,5 @@
  - [ethics-canvas-template.pptx](ethics-canvas-template.pptx)
  - [groupca-teu00311.pdf](groupca-teu00311.pdf)
  - [Harsh_WITIDTM_2022.pdf](Harsh_WITIDTM_2022.pdf)
+ - [700-ads.odp](700-ads.odp)
+ - [700-ads.pdf](700-ads.pdf)

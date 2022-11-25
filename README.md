@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20221122 stephen.farrell@cs.tcd.ie
+20221125 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -63,6 +63,7 @@ Stephen's sessions:
 - [Devices and tracking](lectures/2022-2023/400-machines.pdf)
 - [eMail](lectures/2022-2023/500-mail.pdf)
 - [Passwords](lectures/2022-2023/600-passwords.pdf)
+- [Advertising](lectures/2022-2023/700-ads.pdf)
 
 Eoin's sessions:
 
