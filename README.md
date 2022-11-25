@@ -64,6 +64,7 @@ Stephen's sessions:
 - [eMail](lectures/2022-2023/500-mail.pdf)
 - [Passwords](lectures/2022-2023/600-passwords.pdf)
 - [Advertising](lectures/2022-2023/700-ads.pdf)
+- [Covid trackering apps](lectures/2022-2023/tact-202211.pdf)
 
 Eoin's sessions:
 
