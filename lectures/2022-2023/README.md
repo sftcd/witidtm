@@ -39,3 +39,5 @@
  - [700-ads.odp](700-ads.odp)
  - [700-ads.pdf](700-ads.pdf)
  - [tact-202211.pdf](tact-202211.pdf)
+ - [800-end.odp](800-end.odp)
+ - [800-end.pdf](800-end.pdf)
