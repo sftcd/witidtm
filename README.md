@@ -52,7 +52,9 @@ if you want.
 
 - [Introduction](lectures/2023-2024/100-intro.pdf)
 
-## 2022
+## Old lecture slides
+
+### 2022
 
 Stephen's sessions:
 
@@ -107,8 +109,6 @@ that shows how the bad actor leaves DNS and other traces visible
 - a [report](https://foundation.mozilla.org/en/youtube/user-controls/) describing how youtube recommender controls
   don't actually work
 - a [story](https://text.npr.org/2022/05/25/1101275323/twitter-privacy-settlement-doj-ftc) worth noting
-
-## Old lecture slides
 
 ### 2021
 
