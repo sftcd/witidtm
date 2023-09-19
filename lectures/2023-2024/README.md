@@ -4,3 +4,5 @@
  - [100-intro.pdf](100-intro.pdf)
  - [200-web.odp](200-web.odp)
  - [200-web.pdf](200-web.pdf)
+ - [labs.odp](labs.odp)
+ - [labs.pdf](labs.pdf)
