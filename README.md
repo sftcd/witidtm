@@ -59,7 +59,7 @@ Stephen's sessions:
 Lab slides:
 
 - [labs](lectures/2023-2024/labs.pdf)
-- [ai-labs](lectures/2023-2024/ai-labs.pdf)
+- [ai-lab](lectures/2023-2024/ai-lab.pdf)
 
 
 ## Old lecture slides
