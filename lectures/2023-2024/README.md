@@ -8,3 +8,4 @@
  - [300-jellie.odp](300-jellie.odp)
  - [labs.odp](labs.odp)
  - [labs.pdf](labs.pdf)
+ - [ai-labs.pdf](ai-labs.pdf)
