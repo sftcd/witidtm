@@ -10,3 +10,5 @@
  - [labs.pdf](labs.pdf)
  - [ai-labs.pdf](ai-labs.pdf)
  - [policing-frt.pdf](policing-frt.pdf)
+ - [law-1.pdf](law-1.pdf)
+ - [law-2.pdf](law-2.pdf)
