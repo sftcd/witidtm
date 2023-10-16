@@ -6,6 +6,8 @@
  - [200-web.pdf](200-web.pdf)
  - [300-jellie.pdf](300-jellie.pdf)
  - [300-jellie.odp](300-jellie.odp)
+ - [400-machines.odp](400-machines.odp)
+ - [400-machines.pdf](400-machines.pdf)
  - [labs.odp](labs.odp)
  - [labs.pdf](labs.pdf)
  - [ai-labs.pdf](ai-labs.pdf)
