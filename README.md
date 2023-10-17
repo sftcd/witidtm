@@ -77,7 +77,7 @@ Guest lectures:
 Assignments:
 
 - AS1: [GDPR assignment](https://tcd.blackboard.com/ultra/courses/_83782_1/cl/outline) on Blackboard
-- AS2: [device based tracking](letures/2023-2024/as2.pdf)
+- AS2: [device based tracking](lectures/2023-2024/as2.pdf)
 
 ## Old lecture slides
 
