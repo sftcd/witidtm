@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20231016 stephen.farrell@cs.tcd.ie
+20231017 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -73,6 +73,11 @@ Lab slides:
 Guest lectures:
 
 - Liz Farries, [Policing Facial Recognition Technology](lectures/2023-2024/policing-frt.pdf)
+
+Assignments:
+
+- AS1: [GDPR assignment](https://tcd.blackboard.com/ultra/courses/_83782_1/cl/outline) on Blackboard
+- AS2: [device based tracking](letures/2023-2024/as2.pdf)
 
 ## Old lecture slides
 
