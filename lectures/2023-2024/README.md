@@ -8,6 +8,8 @@
  - [300-jellie.odp](300-jellie.odp)
  - [400-machines.odp](400-machines.odp)
  - [400-machines.pdf](400-machines.pdf)
+ - [500-spam.odp](500-spam.odp)
+ - [500-spam.pdf](500-spam.pdf)
  - [labs.odp](labs.odp)
  - [labs.pdf](labs.pdf)
  - [ai-labs.pdf](ai-labs.pdf)
