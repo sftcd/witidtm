@@ -10,6 +10,8 @@
  - [400-machines.pdf](400-machines.pdf)
  - [500-spam.odp](500-spam.odp)
  - [500-spam.pdf](500-spam.pdf)
+ - [600-passwords.odp](600-passwords.odp)
+ - [600-passwords.pdf](600-passwords.pdf)
  - [labs.odp](labs.odp)
  - [labs.pdf](labs.pdf)
  - [ai-labs.pdf](ai-labs.pdf)

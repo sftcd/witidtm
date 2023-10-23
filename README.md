@@ -60,6 +60,7 @@ Stephen's sessions:
 - [The jell.ie news](lectures/2023-2024/300-jellie.pdf)
 - [Devices and tracking](lectures/2023-2024/400-machines.pdf)
 - [eMail](lectures/2023-2024/500-mail.pdf)
+- [Passwords](lectures/2023-2024/600-passwords.pdf)
 
 Eoin's sessions:
 
