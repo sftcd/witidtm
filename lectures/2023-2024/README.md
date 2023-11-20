@@ -24,3 +24,8 @@
  - [700-im.pdf](700-im.pdf)
  - [800-ads.odp](800-ads.odp)
  - [800-ads.pdf](800-ads.pdf)
+ - [AI-ethics1.pdf](AI-ethics1.pdf)
+ - [AI-ethics2.pdf](AI-ethics2.pdf)
+ - [Ethics-Canvas-Handbook-v3.pdf](Ethics-Canvas-Handbook-v3.pdf)
+ - [ethics-canvas-template.pptx](ethics-canvas-template.pptx)
+ - [rubric-for-ethical-witidtm-assignment.pdf](rubric-for-ethical-witidtm-assignment.pdf)

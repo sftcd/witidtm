@@ -71,7 +71,8 @@ Eoin's sessions:
 
 Dave's sessions:
 
-- TBD
+- [AI-ethics1.pdf](lectures/2023-2024/AI-ethics1.pdf)
+- [AI-ethics2.pdf](lectures/2023-2024/AI-ethics2.pdf)
 
 Lab slides:
 
@@ -86,6 +87,10 @@ Assignments:
 
 - AS1: [GDPR assignment](https://tcd.blackboard.com/ultra/courses/_83782_1/cl/outline) on Blackboard
 - AS2: [device based tracking](lectures/2023-2024/as2.pdf)
+- AS3/Group Assignment:
+    - [Ethics-Canvas-Handbook-v3.pdf](lectures/2023-2024/Ethics-Canvas-Handbook-v3.pdf)
+    - [ethics-canvas-template.pptx](lectures/2023-2024/ethics-canvas-template.pptx)
+    - [rubric-for-ethical-witidtm-assignment.pdf](lectures/2023-2024/rubric-for-ethical-witidtm-assignment.pdf)
 
 ## Old lecture slides
 
