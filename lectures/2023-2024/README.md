@@ -24,6 +24,8 @@
  - [700-im.pdf](700-im.pdf)
  - [800-ads.odp](800-ads.odp)
  - [800-ads.pdf](800-ads.pdf)
+ - [900-end.odp](900-end.odp)
+ - [900-end.pdf](900-end.pdf)
  - [AI-ethics1.pdf](AI-ethics1.pdf)
  - [AI-ethics2.pdf](AI-ethics2.pdf)
  - [Ethics-Canvas-Handbook-v3.pdf](Ethics-Canvas-Handbook-v3.pdf)

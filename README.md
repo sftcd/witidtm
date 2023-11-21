@@ -63,6 +63,7 @@ Stephen's sessions:
 - [Passwords](lectures/2023-2024/600-passwords.pdf)
 - [Instant Messaging](lectures/2023-2024/700-im.pdf)
 - [Advertising](lectures/2023-2024/800-ads.pdf)
+- [A few last words](lectures/2023-2024/900-end.pdf)
 
 Eoin's sessions:
 
