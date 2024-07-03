@@ -22,7 +22,7 @@ Lecture slides etc are [below](#materials).
 Assessment is via assignments with marks for attendance. We'll cover details of
 those in class.  For any students who manage to fail the module (typically by
 just not doing assignments;-), there's a supplemental exam and you can see some
-old exams [here](https://down.dsg.cs.tcd.ie/witidtm/). If you end up doing that
+old exams [here](https://down.dsg.cs.tcd.ie/old-exams/witidtm.html). If you end up doing that
 exam, the marks for that count for 100% of the module-marks.
 
 ## Lecture/Online Session Schedule
