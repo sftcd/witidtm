@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-202311120 stephen.farrell@cs.tcd.ie
+20240901 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -10,7 +10,8 @@ github, this is
 content should be identical.
 
 We'll be using the TCD
-[Blackboard](https://tcd.blackboard.com/ultra/courses/_83782_1/cl/outline) tool
+[Blackboard](URL TBD)
+tool
 for assignments etc. Apologies that only registered students can see that
 material.
 
@@ -34,29 +35,37 @@ Our lecture slots are:
 - Tuesday 1000-1050, Lloyd building, Lloyd 1.07
 - Thursday 1600-1750, Lloyd building, Lloyd 1.07
 
-We have labs in ORI LG36 on Thursday 21st and 28th September instead of
+We have labs in ORI LG36 on Thursday 19th and 26th September instead of
 lectures.  [Here's](lectures/2022-2023/map-2-lg36.png) a map of TCD showing
 where to find LG36, and [here's](lectures/2022-2023/oriLG.png) a diagram
 showing where the door is (it's non-obvious:-).
 
 We'll do an [online "office hour" session on Monday's at
-1100](https://eu.bbcollab.com/guest/36c565c420804b70939bbc5ca9670e18), just
+1100](URL TBD), just
 drop in to the "office hour" blackboard session, and chat as you want. 
 
 ## Materials
 
-Lecture content will accumulate [here](./lectures/2023-2024/) as we go.  Be
+Lecture content will accumulate [here](./lectures/2024-2025/) as we go.  Be
 aware that the content will change, even sometimes at the last minute!
 
 You can look at the materials from previous years [below](#oldlectureslides) or
 the [2019 stuff here](./lectures/2019-2020/).  This year's content will re-use
-some of earlier stuff, likely modifed, and some things will be new. 
+earlier stuff, likely modifed, and some things will be new. 
 
 You can also enjoy (heh:-) the [2021
 recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2021/) or [2020
 recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) if you want.
 
 ## Materials
+
+Stephen's sessions:
+
+- [Introduction](lectures/2024-2025/100-intro.pdf)
+
+## Old lecture slides
+
+### 2023
 
 Stephen's sessions:
 
@@ -98,8 +107,6 @@ Assignments:
     - [Ethics-Canvas-Handbook-v3.pdf](lectures/2023-2024/Ethics-Canvas-Handbook-v3.pdf)
     - [ethics-canvas-template.pptx](lectures/2023-2024/ethics-canvas-template.pptx)
     - [rubric-for-ethical-witidtm-assignment.pdf](lectures/2023-2024/rubric-for-ethical-witidtm-assignment.pdf)
-
-## Old lecture slides
 
 ### 2022
 
