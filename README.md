@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20240901 stephen.farrell@cs.tcd.ie
+20240903 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -10,7 +10,7 @@ github, this is
 content should be identical.
 
 We'll be using the TCD
-[Blackboard](URL TBD)
+[Blackboard](https://tcd.blackboard.com/ultra/courses/_91963_1/cl/outline)
 tool
 for assignments etc. Apologies that only registered students can see that
 material.
@@ -40,8 +40,7 @@ lectures.  [Here's](lectures/2022-2023/map-2-lg36.png) a map of TCD showing
 where to find LG36, and [here's](lectures/2022-2023/oriLG.png) a diagram
 showing where the door is (it's non-obvious:-).
 
-We'll do an [online "office hour" session on Monday's at
-1100](URL TBD), just
+We'll do an [online "office hour" session on Monday's at 1100](https://eu.bbcollab.com/guest/abf3f30e4250441fb55d44cdb63a678a), just
 drop in to the "office hour" blackboard session, and chat as you want. 
 
 ## Materials
