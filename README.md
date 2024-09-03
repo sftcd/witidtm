@@ -63,6 +63,7 @@ Stephen's sessions:
 
 - [Introduction](lectures/2024-2025/100-intro.pdf)
 - [The Web](lectures/2024-2025/200-web.pdf)
+- [The jell.ie news](lectures/2024-2025/300-jellie.pdf)
 
 ## Old lecture slides
 
