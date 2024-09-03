@@ -62,6 +62,7 @@ recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) if you want.
 Stephen's sessions:
 
 - [Introduction](lectures/2024-2025/100-intro.pdf)
+- [The Web](lectures/2024-2025/200-web.pdf)
 
 ## Old lecture slides
 
