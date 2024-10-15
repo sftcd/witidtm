@@ -66,6 +66,7 @@ Stephen's sessions:
 - [Advertising](lectures/2024-2025/300-ads.pdf)
 - [The jell.ie news](lectures/2024-2025/400-jellie.pdf)
 - [Devices and tracking](lectures/2024-2025/500-machines.pdf)
+- [Passwords](lectures/2024-2025/600-passwords.pdf)
 
 Lab slides:
 
