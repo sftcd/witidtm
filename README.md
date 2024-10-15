@@ -76,6 +76,10 @@ Maria Grazia's slides:
 
 - [Cookies and RTB: what does the law say?](lectures/2024-2025/Porcedda_WITIDTM_24-25_law.pdf)
 
+Assignments:
+
+- AS2: [device based tracking](lectures/2024-2025/as2.pdf) (available Oct 17th)
+
 ## Old lecture slides
 
 ### 2023
