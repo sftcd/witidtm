@@ -68,6 +68,10 @@ Stephen's sessions:
 - [Devices and tracking](lectures/2024-2025/500-machines.pdf)
 - [Passwords](lectures/2024-2025/600-passwords.pdf)
 
+Eoin's sessions:
+
+- [GPRR, copyright etc.](lectures/2024-2025/eoin.pdf)
+
 Lab slides:
 
 - [labs](lectures/2024-2025/labs.pdf)
