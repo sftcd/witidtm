@@ -87,6 +87,7 @@ Maria Grazia's slides:
 Delaram's sessions:
 
 - [Ethics on the Internet-1, Technology Ethics, Data and AI](lectures/2024-2025/delaram_witidtm24_AIethics.pdf)
+- [Ethics on the Internet-2, Technology Ethics Canvas](lectures/2024-2025/delaram_witidtm24_ethicscanvas.pdf)
 
 Assignments:
 
