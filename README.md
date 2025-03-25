@@ -183,6 +183,7 @@ Lab slides:
 
 News-ish things:
 
+- Bummer: [Have-I-Been-Pwned](https://haveibeenpwned.com/) founder [pwned via mailchimp](https://www.theregister.com/2025/03/25/troy_hunt_mailchimp_phish/) - Just shows we can all fall for things, when having a bad day.
 - Hmm. [spying matresses](https://yro.slashdot.org/story/23/11/21/2220242/ceo-reminds-everyone-his-company-collects-customers-sleep-data?utm_source=rss1.0mainlinkanon&utm_medium=feed)
 - Amusing AI fake thing: [endless conversation](https://arstechnica.com/information-technology/2022/11/herzog-and-zizek-become-uncanny-ai-bots-trapped-in-endless-conversation/)
 - Wired article on [Soccer stadia with facial recognition](https://www.wired.com/story/soccer-world-cup-biometric-surveillance/)
