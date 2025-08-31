@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-20241118 stephen.farrell@cs.tcd.ie
+20250831 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -10,9 +10,8 @@ github, this is
 content should be identical.
 
 We'll be using the TCD
-[Blackboard](https://tcd.blackboard.com/ultra/courses/_91963_1/cl/outline)
-tool
-for assignments etc. Apologies that only registered students can see that
+[Blackboard](URL TBD)
+tool for assignments etc. Apologies that only registered students can see that
 material.
 
 We have a [policy](llm-policy.md) for use of AI tools when doing 
@@ -35,17 +34,17 @@ Our lecture slots are:
 - Tuesday 1000-1050, Lloyd building, Lloyd 1.07
 - Thursday 1600-1750, Lloyd building, Lloyd 1.07
 
-We have labs in ORI LG36 on Thursday 19th and 26th September instead of
-lectures.  [Here's](lectures/2022-2023/map-2-lg36.png) a map of TCD showing
+We have labs in ORI LG36 on Thursday 25th September and Thursday 2nd October
+instead of lectures.  [Here's](lectures/2022-2023/map-2-lg36.png) a map of TCD showing
 where to find LG36, and [here's](lectures/2022-2023/oriLG.png) a diagram
 showing where the door is (it's non-obvious:-).
 
-We'll do an [online "office hour" session on Monday's at 1100](https://eu.bbcollab.com/guest/abf3f30e4250441fb55d44cdb63a678a), just
-drop in to the "office hour" blackboard session, and chat as you want. 
+If at any time you'd like to chat with someone (me:-) about the module,
+just send an email and we can arrange to meet in person or online.
 
 ## Materials
 
-Lecture content will accumulate [here](./lectures/2024-2025/) as we go.  Be
+Lecture content will accumulate [here](./lectures/2025-2026/) as we go.  Be
 aware that the content will change, even sometimes at the last minute!
 
 You can look at the materials from previous years [below](#oldlectureslides) or
@@ -56,13 +55,21 @@ You can also enjoy (heh:-) the [2021
 recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2021/) or [2020
 recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) if you want.
 
+
 ## Materials
+
+- [Introduction](lectures/2025-2026/100-intro.pdf)
+
+## Old lecture slides
+
+## 2024
 
 Stephen's sessions:
 
 - [Introduction](lectures/2024-2025/100-intro.pdf)
 - [2024 survey results](lectures/2024-2025/survey2024.pdf)
 - [The Web](lectures/2024-2025/200-web.pdf)
+    - add cryptpad.fr and similar
 - [Advertising](lectures/2024-2025/300-ads.pdf)
 - [The jell.ie news](lectures/2024-2025/400-jellie.pdf)
 - [Devices and tracking](lectures/2024-2025/500-machines.pdf)
@@ -93,8 +100,6 @@ Delaram's sessions:
 Assignments:
 
 - AS2: [device based tracking](lectures/2024-2025/as2.pdf) (available Oct 17th)
-
-## Old lecture slides
 
 ### 2023
 
@@ -183,6 +188,7 @@ Lab slides:
 
 News-ish things:
 
+- [ClickFix fake CAPTCHA](https://www.theregister.com/2025/08/22/clickfix_report/)
 - Bummer: [Have-I-Been-Pwned](https://haveibeenpwned.com/) founder [pwned via mailchimp](https://www.theregister.com/2025/03/25/troy_hunt_mailchimp_phish/) - Just shows we can all fall for things, when having a bad day.
 - Hmm. [spying matresses](https://yro.slashdot.org/story/23/11/21/2220242/ceo-reminds-everyone-his-company-collects-customers-sleep-data?utm_source=rss1.0mainlinkanon&utm_medium=feed)
 - Amusing AI fake thing: [endless conversation](https://arstechnica.com/information-technology/2022/11/herzog-and-zizek-become-uncanny-ai-bots-trapped-in-endless-conversation/)
