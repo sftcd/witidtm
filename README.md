@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2025-09-01 stephen.farrell@cs.tcd.ie
+2025-09-02 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -59,6 +59,7 @@ recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) if you want.
 ## Materials
 
 - [Introduction](lectures/2025-2026/100-intro.pdf)
+- [The Web](lectures/2025-2026/200-web.pdf)
 
 ## Old lecture slides
 
@@ -69,7 +70,6 @@ Stephen's sessions:
 - [Introduction](lectures/2024-2025/100-intro.pdf)
 - [2024 survey results](lectures/2024-2025/survey2024.pdf)
 - [The Web](lectures/2024-2025/200-web.pdf)
-    - add cryptpad.fr and similar
 - [Advertising](lectures/2024-2025/300-ads.pdf)
 - [The jell.ie news](lectures/2024-2025/400-jellie.pdf)
 - [Devices and tracking](lectures/2024-2025/500-machines.pdf)
