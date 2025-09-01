@@ -58,10 +58,17 @@ recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) if you want.
 
 ## Materials
 
+Stephen's sessions:
+
 - [Introduction](lectures/2025-2026/100-intro.pdf)
 - [The Web](lectures/2025-2026/200-web.pdf)
 
 ## Old lecture slides
+
+The slides used in earlier years are below. Those'll generally be updated
+and the new versions will appear above as the module proceeds, but you can
+get a reasonable idea of this year's content from these if you're 
+interested.
 
 ## 2024
 
