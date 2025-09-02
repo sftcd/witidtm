@@ -62,6 +62,7 @@ Stephen's sessions:
 
 - [Introduction](lectures/2025-2026/100-intro.pdf)
 - [The Web](lectures/2025-2026/200-web.pdf)
+- [Advertising](lectures/2025-2026/300-ads.pdf)
 
 ## Old lecture slides
 
