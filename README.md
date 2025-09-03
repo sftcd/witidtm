@@ -10,7 +10,7 @@ github, this is
 content should be identical.
 
 We'll be using the TCD
-[Blackboard](URL TBD)
+[Blackboard](https://tcd.blackboard.com/ultra/courses/_107557_1/outline)
 tool for assignments etc. Apologies that only registered students can see that
 material.
 
@@ -31,8 +31,10 @@ This year the module is fully in-person, with no streaming and no recordings.
 
 Our lecture slots are:
 
-- Tuesday 1000-1050, Location changing...
-- Thursday 1600-1750, Location changing...
+- Tuesday 1000-1050, Lloyd Building, LB08
+- Thursday 1600-1750, Lloyd Building, LB01
+
+The locations may still change - check before the first day!
 
 We have labs in ORI LG36 on Thursday 25th September and Thursday 2nd October
 instead of lectures.  [Here's](lectures/2022-2023/map-2-lg36.png) a map of TCD showing
