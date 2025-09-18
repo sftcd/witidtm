@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2025-09-15 stephen.farrell@cs.tcd.ie
+2025-09-18 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -63,6 +63,7 @@ recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) if you want.
 Stephen's sessions:
 
 - [Introduction](lectures/2025-2026/100-intro.pdf)
+- [2025 survey results](lectures/2025-2026/survey2025.pdf)
 - [The Web](lectures/2025-2026/200-web.pdf)
 - [Advertising](lectures/2025-2026/300-ads.pdf)
 - [The jell.ie news](lectures/2025-2026/400-jellie.pdf)
@@ -200,6 +201,7 @@ Lab slides:
 News-ish things:
 
 - [ClickFix fake CAPTCHA](https://www.theregister.com/2025/08/22/clickfix_report/)
+    and [more on that](https://www.theregister.com/2025/09/16/filefix_attacks_facebook_security_alert/)
 - Bummer: [Have-I-Been-Pwned](https://haveibeenpwned.com/) founder [pwned via mailchimp](https://www.theregister.com/2025/03/25/troy_hunt_mailchimp_phish/) - Just shows we can all fall for things, when having a bad day.
 - Hmm. [spying matresses](https://yro.slashdot.org/story/23/11/21/2220242/ceo-reminds-everyone-his-company-collects-customers-sleep-data?utm_source=rss1.0mainlinkanon&utm_medium=feed)
 - Amusing AI fake thing: [endless conversation](https://arstechnica.com/information-technology/2022/11/herzog-and-zizek-become-uncanny-ai-bots-trapped-in-endless-conversation/)
