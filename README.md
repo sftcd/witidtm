@@ -204,6 +204,7 @@ Lab slides:
 
 News-ish things:
 
+- [Tile tracker allowing tracking](https://www.theregister.com/2025/09/30/tile_trackers_unencrypted_info/)
 - [ClickFix fake CAPTCHA](https://www.theregister.com/2025/08/22/clickfix_report/)
     and [more on that](https://www.theregister.com/2025/09/16/filefix_attacks_facebook_security_alert/)
 - Bummer: [Have-I-Been-Pwned](https://haveibeenpwned.com/) founder [pwned via mailchimp](https://www.theregister.com/2025/03/25/troy_hunt_mailchimp_phish/) - Just shows we can all fall for things, when having a bad day.
