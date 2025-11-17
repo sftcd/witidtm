@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2025-11-13 stephen.farrell@cs.tcd.ie
+2025-11-17 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -86,6 +86,7 @@ Lab slides:
 Assignments:
 
 - AS2: [device based tracking](lectures/2025-2026/as2.pdf) (available Oct 21st)
+- AS1: [GDPR](lectures/2025-2026/as1.pdf) (available Nov 17th)
 
 ## Old lecture slides
 
