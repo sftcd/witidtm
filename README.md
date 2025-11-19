@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2025-11-17 stephen.farrell@cs.tcd.ie
+2025-11-19 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -220,6 +220,7 @@ Lab slides:
 
 News-ish things:
 
+- [story about being careful how you react](https://arstechnica.com/tech-policy/2025/11/doordasher-claims-sexual-assault-but-cops-arrest-her-for-filming-nude-drunk-man/)
 - [Tile tracker allowing tracking](https://www.theregister.com/2025/09/30/tile_trackers_unencrypted_info/)
 - [ClickFix fake CAPTCHA](https://www.theregister.com/2025/08/22/clickfix_report/)
     and [more on that](https://www.theregister.com/2025/09/16/filefix_attacks_facebook_security_alert/)
