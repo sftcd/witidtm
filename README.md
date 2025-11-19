@@ -69,6 +69,7 @@ Stephen's sessions:
 - [The jell.ie news](lectures/2025-2026/400-jellie.pdf)
 - [Devices and tracking](lectures/2025-2026/500-machines.pdf)
 - [Passwords](lectures/2025-2026/600-passwords.pdf)
+- [eMail](lectures/2025-2026/700-mail.pdf)
 
 Abeba's sessions:
 
