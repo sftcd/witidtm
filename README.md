@@ -89,6 +89,28 @@ Assignments:
 - AS2: [device based tracking](lectures/2025-2026/as2.pdf) (available Oct 21st)
 - AS1: [GDPR](lectures/2025-2026/as1.pdf) (available Nov 17th)
 
+# News-ish things:
+
+- [eh... secret sharing fails too;-)](https://arstechnica.com/security/2025/11/cryptography-group-cancels-election-results-after-official-loses-secret-key/)
+- [person forgets password for implanted RFID chip](https://www.theregister.com/2025/11/21/magician_password_hand_rfid/)
+- [story about being careful how you react](https://arstechnica.com/tech-policy/2025/11/doordasher-claims-sexual-assault-but-cops-arrest-her-for-filming-nude-drunk-man/)
+- [Tile tracker allowing tracking](https://www.theregister.com/2025/09/30/tile_trackers_unencrypted_info/)
+- [ClickFix fake CAPTCHA](https://www.theregister.com/2025/08/22/clickfix_report/)
+    and [more on that](https://www.theregister.com/2025/09/16/filefix_attacks_facebook_security_alert/)
+- Bummer: [Have-I-Been-Pwned](https://haveibeenpwned.com/) founder [pwned via mailchimp](https://www.theregister.com/2025/03/25/troy_hunt_mailchimp_phish/) - Just shows we can all fall for things, when having a bad day.
+- Hmm. [spying matresses](https://yro.slashdot.org/story/23/11/21/2220242/ceo-reminds-everyone-his-company-collects-customers-sleep-data?utm_source=rss1.0mainlinkanon&utm_medium=feed)
+- Amusing AI fake thing: [endless conversation](https://arstechnica.com/information-technology/2022/11/herzog-and-zizek-become-uncanny-ai-bots-trapped-in-endless-conversation/)
+- Wired article on [Soccer stadia with facial recognition](https://www.wired.com/story/soccer-world-cup-biometric-surveillance/)
+- [Report](https://www.qurium.org/press-releases/pr_under-the-hood-of-a-doppelganger/) on a Russia/Ukraine related disinformation campaign,
+that shows how the bad actor leaves DNS and other traces visible
+- [New York Times](https://www.nytimes.com/2022/09/24/technology/surveillance-footage-instagram.html) story about an artist playing with instatram photos and surveillence footage (incl. some from Dublin)
+- [Ars story](https://arstechnica.com/information-technology/2022/09/how-3-hours-of-inaction-from-amazon-cost-cryptocurrency-holders-235000/) on how a 3 hour BGP hijack enabled $250k cryptocurrency theft
+- [Ars story](https://arstechnica.com/information-technology/2022/09/artist-finds-private-medical-record-photos-in-popular-ai-training-data-set/) that someone found their medical images in an AI training set
+- an [El Reg report](https://www.theregister.com/2022/09/20/mssb_sec_fine/) on how a respectable company can accidentally leak data
+- a [report](https://foundation.mozilla.org/en/youtube/user-controls/) describing how youtube recommender controls
+  don't actually work
+- a [story](https://text.npr.org/2022/05/25/1101275323/twitter-privacy-settlement-doj-ftc) worth noting
+
 ## Old lecture slides
 
 The slides used in earlier years are below. Those'll generally be updated
@@ -218,28 +240,6 @@ Assignments:
 Lab slides:
 
 - [labs](lectures/2022-2023/labs.pdf)
-
-News-ish things:
-
-- [eh... secret sharing fails too;-)](https://arstechnica.com/security/2025/11/cryptography-group-cancels-election-results-after-official-loses-secret-key/)
-- [person forgets password for implanted RFID chip](https://www.theregister.com/2025/11/21/magician_password_hand_rfid/)
-- [story about being careful how you react](https://arstechnica.com/tech-policy/2025/11/doordasher-claims-sexual-assault-but-cops-arrest-her-for-filming-nude-drunk-man/)
-- [Tile tracker allowing tracking](https://www.theregister.com/2025/09/30/tile_trackers_unencrypted_info/)
-- [ClickFix fake CAPTCHA](https://www.theregister.com/2025/08/22/clickfix_report/)
-    and [more on that](https://www.theregister.com/2025/09/16/filefix_attacks_facebook_security_alert/)
-- Bummer: [Have-I-Been-Pwned](https://haveibeenpwned.com/) founder [pwned via mailchimp](https://www.theregister.com/2025/03/25/troy_hunt_mailchimp_phish/) - Just shows we can all fall for things, when having a bad day.
-- Hmm. [spying matresses](https://yro.slashdot.org/story/23/11/21/2220242/ceo-reminds-everyone-his-company-collects-customers-sleep-data?utm_source=rss1.0mainlinkanon&utm_medium=feed)
-- Amusing AI fake thing: [endless conversation](https://arstechnica.com/information-technology/2022/11/herzog-and-zizek-become-uncanny-ai-bots-trapped-in-endless-conversation/)
-- Wired article on [Soccer stadia with facial recognition](https://www.wired.com/story/soccer-world-cup-biometric-surveillance/)
-- [Report](https://www.qurium.org/press-releases/pr_under-the-hood-of-a-doppelganger/) on a Russia/Ukraine related disinformation campaign,
-that shows how the bad actor leaves DNS and other traces visible
-- [New York Times](https://www.nytimes.com/2022/09/24/technology/surveillance-footage-instagram.html) story about an artist playing with instatram photos and surveillence footage (incl. some from Dublin)
-- [Ars story](https://arstechnica.com/information-technology/2022/09/how-3-hours-of-inaction-from-amazon-cost-cryptocurrency-holders-235000/) on how a 3 hour BGP hijack enabled $250k cryptocurrency theft
-- [Ars story](https://arstechnica.com/information-technology/2022/09/artist-finds-private-medical-record-photos-in-popular-ai-training-data-set/) that someone found their medical images in an AI training set
-- an [El Reg report](https://www.theregister.com/2022/09/20/mssb_sec_fine/) on how a respectable company can accidentally leak data
-- a [report](https://foundation.mozilla.org/en/youtube/user-controls/) describing how youtube recommender controls
-  don't actually work
-- a [story](https://text.npr.org/2022/05/25/1101275323/twitter-privacy-settlement-doj-ftc) worth noting
 
 ### 2021
 
