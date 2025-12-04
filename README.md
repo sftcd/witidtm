@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2025-12-03 stephen.farrell@cs.tcd.ie
+2025-12-04 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -82,6 +82,7 @@ Abeba's sessions:
 Guest lectures:
 
 - Liz Farries, [Policing Facial Recognition Technology](lectures/2025-2026/frt2025.pdf)
+- Mick Moran, [Victim Identification](lectures/2025-2026/vic-id-tcd.pdf)
 
 Lab slides:
 
