@@ -95,6 +95,7 @@ Assignments:
 
 # News-ish things:
 
+- [Supposed VPN browser extensions exfiltrating LLM chats](https://www.theregister.com/2025/12/16/chrome_edge_privacy_extensions_quietly/))
 - A 2025 student pointed out
 <a href="https://www.privacyguides.org/">https://www.privacyguides.org/</a> that
 has some content similar to recommendations made in class.  Also" <a
