@@ -95,6 +95,8 @@ Assignments:
 
 # News-ish things:
 
+- [Dangerously innacurate Google summaries related to healthcare](https://www.theguardian.com/technology/2026/jan/02/google-ai-overviews-risk-harm-misleading-health-information)
+  reported by the Guardian in Jan 2026.
 - [Supposed VPN browser extensions exfiltrating LLM chats](https://www.theregister.com/2025/12/16/chrome_edge_privacy_extensions_quietly/))
 - A 2025 student pointed out
 <a href="https://www.privacyguides.org/">https://www.privacyguides.org/</a> that
