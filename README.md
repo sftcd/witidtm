@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2025-12-09 stephen.farrell@cs.tcd.ie
+2026-09-02 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -10,7 +10,7 @@ github, this is
 content should be identical.
 
 We'll be using the TCD
-[Blackboard](https://tcd.blackboard.com/ultra/courses/_107557_1/outline)
+[Blackboard](https://tcd.blackboard.com/ultra/courses/_114062_1/outline)
 tool for assignments etc. Apologies that only registered students can see that
 material.
 
@@ -36,17 +36,17 @@ Our lecture slots are:
 
 The locations may still change - check before the first day!
 
-We have labs in ORI LG36 on Thursday 25th September and Thursday 2nd October
-instead of lectures.  [Here's](lectures/2022-2023/map-2-lg36.png) a map of TCD showing
-where to find LG36, and [here's](lectures/2022-2023/oriLG.png) a diagram
-showing where the door is (it's non-obvious:-).
+We have labs in LOCATION-TBD on Thursday 24th September and Thursday 1st
+October instead of lectures.  [Here's](lectures/2022-2023/map-2-lg36.png) a map
+of TCD showing where to find LG36, and [here's](lectures/2022-2023/oriLG.png) a
+diagram showing where the door is (it's non-obvious:-).
 
-If at any time you'd like to chat with someone (me:-) about the module,
-just send an email and we can arrange to meet in person or online.
+If at any time you'd like to chat with someone (me:-) about the module, just
+send an email and we can arrange to meet in person or online.
 
 ## Materials
 
-Lecture content will accumulate [here](./lectures/2025-2026/) as we go.  Be
+Lecture content will accumulate [here](./lectures/2026-2027/) as we go.  Be
 aware that the content will change, even sometimes at the last minute!
 
 You can look at the materials from previous years [below](#oldlectureslides) or
@@ -62,39 +62,12 @@ recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) if you want.
 
 Stephen's sessions:
 
-- [Introduction](lectures/2025-2026/100-intro.pdf)
-- [2025 survey results](lectures/2025-2026/survey2025.pdf)
-- [The Web](lectures/2025-2026/200-web.pdf)
-- [Advertising](lectures/2025-2026/300-ads.pdf)
-- [The jell.ie news](lectures/2025-2026/400-jellie.pdf)
-- [Devices and tracking](lectures/2025-2026/500-machines.pdf)
-- [Passwords](lectures/2025-2026/600-passwords.pdf)
-- [eMail](lectures/2025-2026/700-mail.pdf)
-- [Instant Messaging](lectures/2025-2026/800-im.pdf)
-- [Censorship](lectures/2025-2026/900-censorship.pdf)
-- [A few last words](lectures/2025-2026/999-end.pdf)
-
-Abeba's sessions:
-
-- [AI slides](lectures/2025-2026/TEU00311-AB.pdf)
-- [John McCarthy Video](lectures/2025-2026/John-McCarthy-1973.mp4)
-
-Guest lectures:
-
-- Liz Farries, [Policing Facial Recognition Technology](lectures/2025-2026/frt2025.pdf)
-- Mick Moran, [Victim Identification](lectures/2025-2026/vic-id-tcd.pdf)
-
-Lab slides:
-
-- [labs](lectures/2025-2026/labs.pdf)
-
-Assignments:
-
-- AS2: [device based tracking](lectures/2025-2026/as2.pdf) (available Oct 21st)
-- AS1: [GDPR](lectures/2025-2026/as1.pdf) (available Nov 17th)
+- [Introduction](lectures/2026-2027/100-intro.pdf)
 
 # News-ish things:
 
+- A now relatively rare [BGP hijack attack](https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/) was reported on 2026-09-01.
+- [Car manuf selling driving data (despite having denied exactly that)](https://oag.ca.gov/news/press-releases/when-it-comes-data-privacy-consumers-must-be-driver%E2%80%99s-seat-attorney-general)
 - [Dangerously innacurate Google summaries related to healthcare](https://www.theguardian.com/technology/2026/jan/02/google-ai-overviews-risk-harm-misleading-health-information)
   reported by the Guardian in Jan 2026.
 - [Supposed VPN browser extensions exfiltrating LLM chats](https://www.theregister.com/2025/12/16/chrome_edge_privacy_extensions_quietly/))
@@ -128,6 +101,41 @@ The slides used in earlier years are below. Those'll generally be updated
 and the new versions will appear above as the module proceeds, but you can
 get a reasonable idea of this year's content from these if you're 
 interested.
+
+## 2025
+
+Stephen's sessions:
+
+- [Introduction](lectures/2025-2026/100-intro.pdf)
+- [2025 survey results](lectures/2025-2026/survey2025.pdf)
+- [The Web](lectures/2025-2026/200-web.pdf)
+- [Advertising](lectures/2025-2026/300-ads.pdf)
+- [The jell.ie news](lectures/2025-2026/400-jellie.pdf)
+- [Devices and tracking](lectures/2025-2026/500-machines.pdf)
+- [Passwords](lectures/2025-2026/600-passwords.pdf)
+- [eMail](lectures/2025-2026/700-mail.pdf)
+- [Instant Messaging](lectures/2025-2026/800-im.pdf)
+- [Censorship](lectures/2025-2026/900-censorship.pdf)
+- [A few last words](lectures/2025-2026/999-end.pdf)
+
+Abeba's sessions:
+
+- [AI slides](lectures/2025-2026/TEU00311-AB.pdf)
+- [John McCarthy Video](lectures/2025-2026/John-McCarthy-1973.mp4)
+
+Guest lectures:
+
+- Liz Farries, [Policing Facial Recognition Technology](lectures/2025-2026/frt2025.pdf)
+- Mick Moran, [Victim Identification](lectures/2025-2026/vic-id-tcd.pdf)
+
+Lab slides:
+
+- [labs](lectures/2025-2026/labs.pdf)
+
+Assignments:
+
+- AS2: [device based tracking](lectures/2025-2026/as2.pdf) (available Oct 21st)
+- AS1: [GDPR](lectures/2025-2026/as1.pdf) (available Nov 17th)
 
 ## 2024
 
