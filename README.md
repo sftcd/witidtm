@@ -65,6 +65,7 @@ Stephen's sessions:
 - [Introduction](lectures/2026-2027/100-intro.pdf)
 - 2026 Survey Results (TBD)
 - [The Web](lectures/2026-2027/200-web.pdf)
+- [Advertising](lectures/2026-2027/300-ads.pdf)
 
 # News-ish things:
 
