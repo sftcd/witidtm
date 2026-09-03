@@ -63,6 +63,8 @@ recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) if you want.
 Stephen's sessions:
 
 - [Introduction](lectures/2026-2027/100-intro.pdf)
+- 2026 Survey Results (TBD)
+- [The Web](lectures/2026-2027/200-web.pdf)
 
 # News-ish things:
 
