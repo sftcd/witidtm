@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2026-09-03 stephen.farrell@cs.tcd.ie
+2026-09-08 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -58,8 +58,6 @@ recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2021/) or [2020
 recordings](https://down.dsg.cs.tcd.ie/witidtm-recordings/2020/) if you want.
 
 
-## Materials
-
 Stephen's sessions:
 
 - [Introduction](lectures/2026-2027/100-intro.pdf)
@@ -69,6 +67,7 @@ Stephen's sessions:
 
 # News-ish things:
 
+- A [Guardian story](https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation) claims the UK government now have their own chatcontrol plan. Not clearly a good plan that.
 - A now relatively rare [BGP hijack attack](https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/) was reported on 2026-09-01.
 - [Car manuf selling driving data (despite having denied exactly that)](https://oag.ca.gov/news/press-releases/when-it-comes-data-privacy-consumers-must-be-driver%E2%80%99s-seat-attorney-general)
 - [Dangerously innacurate Google summaries related to healthcare](https://www.theguardian.com/technology/2026/jan/02/google-ai-overviews-risk-harm-misleading-health-information)
