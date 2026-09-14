@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2026-09-08 stephen.farrell@cs.tcd.ie
+2026-09-14 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -67,6 +67,7 @@ Stephen's sessions:
 
 # News-ish things:
 
+- According to el Reg: [Revolut falls for fake government requests, hands over customer data](https://www.theregister.com/cyber-crime/2026/09/14/revolut-falls-for-fake-government-requests-hands-over-customer-data/5296118)
 - A [Guardian story](https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation) claims the UK government now have their own chatcontrol plan. Not clearly a good plan that.
 - A now relatively rare [BGP hijack attack](https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/) was reported on 2026-09-01.
 - [Car manuf selling driving data (despite having denied exactly that)](https://oag.ca.gov/news/press-releases/when-it-comes-data-privacy-consumers-must-be-driver%E2%80%99s-seat-attorney-general)
