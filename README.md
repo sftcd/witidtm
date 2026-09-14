@@ -36,9 +36,9 @@ Our lecture slots are:
 
 The locations may still change - check before the first day!
 
-We have labs in LOCATION-TBD on Thursday 24th September and Thursday 1st
+We have labs in LG35/37 on Thursday 24th September and Thursday 1st
 October instead of lectures.  [Here's](lectures/2022-2023/map-2-lg36.png) a map
-of TCD showing where to find LG36, and [here's](lectures/2022-2023/oriLG.png) a
+of TCD showing where to find that, and [here's](lectures/2022-2023/oriLG.png) a
 diagram showing where the door is (it's non-obvious:-).
 
 If at any time you'd like to chat with someone (me:-) about the module, just
