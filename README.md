@@ -64,6 +64,7 @@ Stephen's sessions:
 - [2026 survey results](lectures/2026-2027/survey2026.pdf)
 - [The Web](lectures/2026-2027/200-web.pdf)
 - [Advertising](lectures/2026-2027/300-ads.pdf)
+- [The jell.ie news](lectures/2026-2027/400-jellie.pdf)
 
 # News-ish things:
 
