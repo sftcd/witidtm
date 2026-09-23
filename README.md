@@ -73,6 +73,7 @@ Abeba's sessions:
 
 # News-ish things:
 
+- According to el Reg: [Owners mourn spoiled food after firmware update bricks Samsung smart fridges](https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/)
 - According to el Reg: [Revolut falls for fake government requests, hands over customer data](https://www.theregister.com/cyber-crime/2026/09/14/revolut-falls-for-fake-government-requests-hands-over-customer-data/5296118)
 - A [Guardian story](https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation) claims the UK government now have their own chatcontrol plan. Not clearly a good plan that.
 - A now relatively rare [BGP hijack attack](https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/) was reported on 2026-09-01.
