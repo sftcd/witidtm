@@ -68,8 +68,8 @@ Stephen's sessions:
 
 Abeba's sessions:
 
-- [AI slides](lectures/2025-2026/Abeba-2026-1.pdf)
-- [John McCarthy Video](lectures/2025-2026/John-McCarthy-1973.mp4)
+- [AI slides](lectures/2026-2027/Abeba-2026-1.pdf)
+- [John McCarthy Video](lectures/2026-2027/John-McCarthy-1973.mp4)
 
 Lab slides:
 
