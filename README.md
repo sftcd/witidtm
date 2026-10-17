@@ -84,6 +84,7 @@ Lab slides:
 
 # News-ish things:
 
+- Using RTB for targetting malware - a good (but long) [citizen lab report](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/) 
 - According to el Reg: [Owners mourn spoiled food after firmware update bricks Samsung smart fridges](https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/)
 - According to el Reg: [Revolut falls for fake government requests, hands over customer data](https://www.theregister.com/cyber-crime/2026/09/14/revolut-falls-for-fake-government-requests-hands-over-customer-data/5296118)
 - A [Guardian story](https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation) claims the UK government now have their own chatcontrol plan. Not clearly a good plan that.
