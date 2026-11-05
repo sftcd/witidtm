@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2026-11-03 stephen.farrell@cs.tcd.ie
+2026-11-05 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -92,6 +92,7 @@ Lab slides:
 
 # News-ish things:
 
+- Residential proxies from inside the US White House, according to a [Krebs article](https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/)
 - Using RTB for targetting malware - a good (but long) [citizen lab report](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/) with a more technical [confiant report](https://blog.confiant.com/p/adint-weaponized-ad-tech-for-zero-click-spyware-and-mass-identity-vacuuming)
 - According to el Reg: [Owners mourn spoiled food after firmware update bricks Samsung smart fridges](https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/)
 - According to el Reg: [Revolut falls for fake government requests, hands over customer data](https://www.theregister.com/cyber-crime/2026/09/14/revolut-falls-for-fake-government-requests-hands-over-customer-data/5296118)
