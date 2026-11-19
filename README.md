@@ -72,7 +72,7 @@ Stephen's sessions:
 - [Instant Messaging](lectures/2026-2027/800-im.pdf)
 - [WebRTC (making calls)](lectures/2026-2027/900-webrtc.pdf)
 - [Censorship](lectures/2026-2027/1000-censorship.pdf)
-- [Snowden/RFC9446][lectures/2026-2027/rfc9446-pressie-tcd-26.pdf)
+- [Snowden/RFC9446](lectures/2026-2027/rfc9446-pressie-tcd-26.pdf)
 
 Abeba's sessions:
 
