@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2026-11-19 stephen.farrell@cs.tcd.ie
+2026-11-23 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -73,6 +73,7 @@ Stephen's sessions:
 - [WebRTC (making calls)](lectures/2026-2027/900-webrtc.pdf)
 - [Censorship](lectures/2026-2027/1000-censorship.pdf)
 - [Snowden/RFC9446](lectures/2026-2027/rfc9446-pressie-tcd-26.pdf)
+- ["sensitive" content detection](lectures/2026-2027/1100-img.pdf)
 
 Abeba's sessions:
 
@@ -94,6 +95,7 @@ Lab slides:
 
 # News-ish things:
 
+- An article about GTA6 pre-downloading from [RIPE labs](https://labs.ripe.net/author/emileaben/whos-delivering-gta-6-a-ripe-atlas-measurement-story/)
 - Residential proxies from inside the US White House, according to a [Krebs article](https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/)
 - Using RTB for targetting malware - a good (but long) [citizen lab report](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/) with a more technical [confiant report](https://blog.confiant.com/p/adint-weaponized-ad-tech-for-zero-click-spyware-and-mass-identity-vacuuming)
 - According to el Reg: [Owners mourn spoiled food after firmware update bricks Samsung smart fridges](https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/)
@@ -345,7 +347,9 @@ Stephen's sessions:
 - [Web Advertising](lectures/2020-2021/700-ads.pdf)
 - [Email](lectures/2020-2021/800-mail.pdf)
 - [Covid Tracking Apps](lectures/2020-2021/900-covid.pdf)
-- [Web Real-Time Communication (WebRTC)](lectures/2020-2021/1000-webrtc.pdf)
+- [Web Real-Time Communication (WebRTC)](lectures/2026-2027/1000-webrtc.pdf)
+- [Warning about "sensitive" content on mobiles](lectures/2020-2021/1100-img.pdf)
+- [A litany of incidents](lectures/2020-2021/1200-incidents.pdf)
 
 Eoin's sesions:
 
