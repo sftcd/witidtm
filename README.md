@@ -73,7 +73,8 @@ Stephen's sessions:
 - [WebRTC (making calls)](lectures/2026-2027/900-webrtc.pdf)
 - [Censorship](lectures/2026-2027/1000-censorship.pdf)
 - [Snowden/RFC9446](lectures/2026-2027/rfc9446-pressie-tcd-26.pdf)
-- ["sensitive" content detection](lectures/2026-2027/1100-img.pdf)
+- [Warning about "sensitive" content on mobiles](lectures/2026-2027/1100-img.pdf)
+- [A litany of incidents](lectures/2026-2027/1200-incidents.pdf)
 
 Abeba's sessions:
 
@@ -348,8 +349,6 @@ Stephen's sessions:
 - [Email](lectures/2020-2021/800-mail.pdf)
 - [Covid Tracking Apps](lectures/2020-2021/900-covid.pdf)
 - [Web Real-Time Communication (WebRTC)](lectures/2026-2027/1000-webrtc.pdf)
-- [Warning about "sensitive" content on mobiles](lectures/2020-2021/1100-img.pdf)
-- [A litany of incidents](lectures/2020-2021/1200-incidents.pdf)
 
 Eoin's sesions:
 
