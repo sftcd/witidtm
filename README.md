@@ -1,6 +1,6 @@
 # What is the Internet doing to me? (witidtm)
 
-2026-11-23 stephen.farrell@cs.tcd.ie
+2026-11-24 stephen.farrell@cs.tcd.ie
 
 This is the repo for course content for TCD's witidtm elective module.
 (TEU00311) The canonical URL for this is
@@ -85,9 +85,10 @@ Eoin's sessions:
 
 - [GPDR etc.](lectures/2026-2027/eod-witidtm.pdf)
 
-Liz Carolan's guest lecture:
+Guest lectures:
 
-- [The social web](lectures/2026-2027/liz-c-pub.pdf)
+- Liz Carolan's [The social web](lectures/2026-2027/liz-c-pub.pdf)
+- Mick Moran's [Irish Internet Hotline](lectures/2026-2027/mickmoran-notes.pdf)
 
 Lab slides:
 
